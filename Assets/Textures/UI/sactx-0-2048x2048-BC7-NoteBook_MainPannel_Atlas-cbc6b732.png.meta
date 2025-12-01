@@ -1,0 +1,1656 @@
+fileFormatVersion: 2
+guid: a0765bf82b761404e85aea95c5a12505
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8377608529766472622
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_0
+  - first:
+      213: 5061967920183215350
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_1
+  - first:
+      213: 878673752376884564
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_2
+  - first:
+      213: -8170046992010523166
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_3
+  - first:
+      213: -4310948722091419404
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_4
+  - first:
+      213: -5997291789812532999
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_5
+  - first:
+      213: 2586267204700182279
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_6
+  - first:
+      213: 710186280240421921
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_7
+  - first:
+      213: -1377558084511130059
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_8
+  - first:
+      213: -745061893215547084
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_9
+  - first:
+      213: 5710670222202317462
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_10
+  - first:
+      213: 4612421273457391612
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_11
+  - first:
+      213: -1317459482684390126
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_12
+  - first:
+      213: 5426184475009333659
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_13
+  - first:
+      213: -2357643082109487215
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_14
+  - first:
+      213: 8170184840952771624
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_15
+  - first:
+      213: 6400733981279381665
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_16
+  - first:
+      213: 7130512086770396451
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_17
+  - first:
+      213: -6418242200537764607
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_18
+  - first:
+      213: -4497839810182210575
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_19
+  - first:
+      213: -1512240259785810691
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_20
+  - first:
+      213: -8514455376138504814
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_21
+  - first:
+      213: 5030366101764773077
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_22
+  - first:
+      213: -7802953419382531640
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_23
+  - first:
+      213: -2046114038639369797
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_24
+  - first:
+      213: 7113590904629991959
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_25
+  - first:
+      213: -7640181099078142530
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_26
+  - first:
+      213: 8899631747574197142
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_27
+  - first:
+      213: -2871274180980339346
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_28
+  - first:
+      213: 2113996143512307260
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_29
+  - first:
+      213: -1948480735995048854
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_30
+  - first:
+      213: 4607711114628426839
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_31
+  - first:
+      213: -7887396252850548399
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_32
+  - first:
+      213: -839818956388787380
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_33
+  - first:
+      213: -6247697985201046246
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_34
+  - first:
+      213: 3240994864696258328
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_35
+  - first:
+      213: -4237258607018790770
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_36
+  - first:
+      213: -8158188528796773892
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_37
+  - first:
+      213: -7082490961135330828
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_38
+  - first:
+      213: 9000576699796988175
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_39
+  - first:
+      213: -5415303593734889864
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_40
+  - first:
+      213: 7293109334346284211
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_41
+  - first:
+      213: -5152042688603995659
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_42
+  - first:
+      213: -4342350274050622268
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_43
+  - first:
+      213: 5012133466782564389
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_44
+  - first:
+      213: 730456809743229730
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_45
+  - first:
+      213: -543423348080547456
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_46
+  - first:
+      213: -2805845551637018923
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_47
+  - first:
+      213: -9003867704150263602
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_48
+  - first:
+      213: -1782260876028166065
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_49
+  - first:
+      213: 7261109265685436106
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_50
+  - first:
+      213: 6544050130285648848
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_51
+  - first:
+      213: 5749319648037752250
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_52
+  - first:
+      213: 7544635227984980985
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_53
+  - first:
+      213: -8383841718736512867
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_54
+  - first:
+      213: -3671930671526525138
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_55
+  - first:
+      213: -1388603274731931211
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_56
+  - first:
+      213: -6818763925441337709
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_57
+  - first:
+      213: 6593671110875667084
+    second: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1933
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254acfbbd61ccbb80800000000000000
+      internalID: -8377608529766472622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1893
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f481f20109bf3640800000000000000
+      internalID: 5061967920183215350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1931
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d32e35f1da13c00800000000000000
+      internalID: 878673752376884564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1892
+        width: 93
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edc6fa2c892e9e80800000000000000
+      internalID: -8170046992010523166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1722
+        width: 220
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f87bd564e655cca0800000000000000
+      internalID: -5997291789812532999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_6
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1934
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707956ee15444e320800000000000000
+      internalID: 2586267204700182279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1845
+        width: 108
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c161eb8a61bd900800000000000000
+      internalID: 710186280240421921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 1154
+        height: 1182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e1f33883ee1ece0800000000000000
+      internalID: -1377558084511130059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_9
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1721
+        width: 184
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4311537d72209a5f0800000000000000
+      internalID: -745061893215547084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_10
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1850
+        width: 94
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a25c78f40604f40800000000000000
+      internalID: 5710670222202317462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_11
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1840
+        width: 92
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7f1e6e5bc920040800000000000000
+      internalID: 4612421273457391612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1705
+        width: 287
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21580a8a49177bde0800000000000000
+      internalID: -1317459482684390126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_13
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1822
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99bba6e70ead4b40800000000000000
+      internalID: 5426184475009333659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_14
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1791
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197f4bfab18f74fd0800000000000000
+      internalID: -2357643082109487215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_15
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1773
+        width: 134
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824754a43d3526170800000000000000
+      internalID: 8170184840952771624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_16
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1787
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8ede7b4a9f3d850800000000000000
+      internalID: 6400733981279381665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_17
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1790
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d249eb6faa4f260800000000000000
+      internalID: 7130512086770396451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_18
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1731
+        width: 226
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d668259b2dde6a0800000000000000
+      internalID: -6418242200537764607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_19
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1558
+        width: 410
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb9a71f5867491c0800000000000000
+      internalID: -4497839810182210575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_20
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1730
+        width: 93
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc1c64fe71730be0800000000000000
+      internalID: -1512240259785810691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1354
+        width: 464
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295795962f396d980800000000000000
+      internalID: -8514455376138504814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_22
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1576
+        width: 91
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d41bd941537fc540800000000000000
+      internalID: 5030366101764773077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_23
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1543
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9d8c6f43756b390800000000000000
+      internalID: -7802953419382531640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_24
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1543
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1e5f46f1eba93e0800000000000000
+      internalID: -2046114038639369797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_25
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1358
+        width: 394
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a9be30d3d88b260800000000000000
+      internalID: 7113590904629991959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_26
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1502
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb53bc115cf98f590800000000000000
+      internalID: -7640181099078142530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_27
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1337
+        width: 355
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69be2f11ce7d18b70800000000000000
+      internalID: 8899631747574197142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_28
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1291
+        width: 177
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d8ae5585f2728d0800000000000000
+      internalID: -2871274180980339346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_29
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1284
+        width: 367
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36c896ca4c665d10800000000000000
+      internalID: 2113996143512307260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_30
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1286
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cc257181b95f4e0800000000000000
+      internalID: -1948480735995048854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_31
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1068
+        width: 518
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ceb0798d0e1ff30800000000000000
+      internalID: 4607711114628426839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_32
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 713
+        width: 429
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519812b5e65a8290800000000000000
+      internalID: -7887396252850548399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_33
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1226
+        width: 376
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b9ec4db1d5854f0800000000000000
+      internalID: -839818956388787380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_34
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1072
+        width: 138
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dfa20c8c7bb49a0800000000000000
+      internalID: -6247697985201046246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_35
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1177
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fe51d68a35afc20800000000000000
+      internalID: 3240994864696258328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_36
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1100
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80bd233fbb3235c0800000000000000
+      internalID: -4237258607018790770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_37
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1049
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d66ac1ca48ce80800000000000000
+      internalID: -8158188528796773892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_38
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1002
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f91d98deffe5bd90800000000000000
+      internalID: -7082490961135330828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_39
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 621
+        width: 430
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01ae0542d878ec70800000000000000
+      internalID: 9000576699796988175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_40
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 990
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e1980b21af8d4b0800000000000000
+      internalID: -5415303593734889864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_41
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 989
+        width: 95
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcbbcd8c44563560800000000000000
+      internalID: 7293109334346284211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_42
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 713
+        width: 182
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f14c1ea8744088b0800000000000000
+      internalID: -5152042688603995659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_43
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 875
+        width: 126
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc74e8be6fdcb3c0800000000000000
+      internalID: -4342350274050622268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_44
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 875
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5200c6625dcae8540800000000000000
+      internalID: 5012133466782564389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_45
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 878
+        width: 92
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223a28c299a132a00800000000000000
+      internalID: 730456809743229730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_46
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 918
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0896107185f5578f0800000000000000
+      internalID: -543423348080547456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_47
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 881
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6c0183652af09d0800000000000000
+      internalID: -2805845551637018923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_48
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 861
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8f2811706db0380800000000000000
+      internalID: -9003867704150263602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_49
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 757
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40c3431d232447e0800000000000000
+      internalID: -1782260876028166065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_51
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 747
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db5600fbe221da50800000000000000
+      internalID: 6544050130285648848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_52
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 737
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdc67932cfa9cf40800000000000000
+      internalID: 5749319648037752250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_53
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 726
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb61f344cde3b860800000000000000
+      internalID: 7544635227984980985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_54
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 716
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d981c95506c96ab80800000000000000
+      internalID: -8383841718736512867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_55
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 709
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27cccb428eaa0dc0800000000000000
+      internalID: -3671930671526525138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_56
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 701
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9b8a3cda0babce0800000000000000
+      internalID: -1388603274731931211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 1105
+        height: 707
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39622d05652ee51a0800000000000000
+      internalID: -6818763925441337709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_58
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1
+        width: 440
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8adf79c0fc618b50800000000000000
+      internalID: 6593671110875667084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1892
+        width: 92
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f872e3e20a437f44f85f03ef9b023ccc
+      internalID: 1845775569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4670ab96dcc39924aafe8ddc08366b3b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Book: -6818763925441337709
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_0: -8377608529766472622
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_1: 5061967920183215350
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_10: 5710670222202317462
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_11: 4612421273457391612
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_12: -1317459482684390126
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_13: 5426184475009333659
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_14: -2357643082109487215
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_15: 8170184840952771624
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_16: 6400733981279381665
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_17: 7130512086770396451
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_18: -6418242200537764607
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_19: -4497839810182210575
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_2: 878673752376884564
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_20: -1512240259785810691
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_21: -8514455376138504814
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_22: 5030366101764773077
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_23: -7802953419382531640
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_24: -2046114038639369797
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_25: 7113590904629991959
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_26: -7640181099078142530
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_27: 8899631747574197142
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_28: -2871274180980339346
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_29: 2113996143512307260
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_3: -8170046992010523166
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_30: -1948480735995048854
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_31: 4607711114628426839
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_32: -7887396252850548399
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_33: -839818956388787380
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_34: -6247697985201046246
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_35: 3240994864696258328
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_36: -4237258607018790770
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_37: -8158188528796773892
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_38: -7082490961135330828
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_39: 9000576699796988175
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_4: -4310948722091419404
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_40: -5415303593734889864
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_41: 7293109334346284211
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_42: -5152042688603995659
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_43: -4342350274050622268
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_44: 5012133466782564389
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_45: 730456809743229730
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_46: -543423348080547456
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_47: -2805845551637018923
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_48: -9003867704150263602
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_49: -1782260876028166065
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_5: -5997291789812532999
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_50: 7261109265685436106
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_51: 6544050130285648848
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_52: 5749319648037752250
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_53: 7544635227984980985
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_54: -8383841718736512867
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_55: -3671930671526525138
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_56: -1388603274731931211
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_58: 6593671110875667084
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_59: 1845775569
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_6: 2586267204700182279
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_7: 710186280240421921
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_8: -1377558084511130059
+      sactx-0-2048x2048-BC7-NoteBook_MainPannel_Atlas-cbc6b732_9: -745061893215547084
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

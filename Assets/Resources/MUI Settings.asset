@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dbcf49371aa1c4c9360a2a132bce64, type: 3}
+  m_Name: MUI Settings
+  m_EditorClassIdentifier: 
+  defaultSliderStepAcceleration: 0.25
+  defaultSliderStepMax: 12
+  defaultClickSound: {fileID: 8300000, guid: 2707e68fee1d2234e959631cd6a39611, type: 3}
+  defaultSelectedSound: {fileID: 8300000, guid: 0e9f154a953c5914a801148c016d6c4c, type: 3}
+  defaultQuitSound: {fileID: 8300000, guid: 2b7e041b508f5e04e9af36aafe186c9d, type: 3}

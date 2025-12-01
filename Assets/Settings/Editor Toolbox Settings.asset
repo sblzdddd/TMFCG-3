@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97690dbca7025a4ebeae4ac93229110, type: 3}
+  m_Name: Editor Toolbox Settings
+  m_EditorClassIdentifier: 
+  useToolboxHierarchy: 1
+  drawHorizontalLines: 1
+  showSelectionsCount: 1
+  rowDataTypes: 05000000010000000300000004000000
+  useToolboxFolders: 1
+  largeIconScale: 1.67
+  smallIconScale: 1.27
+  largeIconPadding: {x: 0, y: 0}
+  smallIconPadding: {x: 0, y: 0}
+  customFolders:
+  - dataType: 1
+    name: Animations
+    path: Animations
+    tooltip: Animations folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: adab13c943f747f4eb62e334d63ac0ce, type: 3}
+    smallIcon: {fileID: 2800000, guid: adab13c943f747f4eb62e334d63ac0ce, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Audio
+    path: Audio
+    tooltip: Audio folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 432357cd0de5f4a4a8436b7225c8db85, type: 3}
+    smallIcon: {fileID: 2800000, guid: 432357cd0de5f4a4a8436b7225c8db85, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Fonts
+    path: Fonts
+    tooltip: Fonts folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: bd151eb48ee2102499fbd9d7231cf071, type: 3}
+    smallIcon: {fileID: 2800000, guid: bd151eb48ee2102499fbd9d7231cf071, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Plugins
+    path: Plugins
+    tooltip: Plugins folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 2f3aabd97368b8e4cb9ce282d95413b0, type: 3}
+    smallIcon: {fileID: 2800000, guid: 2f3aabd97368b8e4cb9ce282d95413b0, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Resources
+    path: Resources
+    tooltip: Resources folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 576c91c28ad37cc4680fe5aaa688eb04, type: 3}
+    smallIcon: {fileID: 2800000, guid: 576c91c28ad37cc4680fe5aaa688eb04, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Scenes
+    path: Scenes
+    tooltip: Scenes folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 46908d983e55f1e41a4bace2ef1686a2, type: 3}
+    smallIcon: {fileID: 2800000, guid: 46908d983e55f1e41a4bace2ef1686a2, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Scripts
+    path: Scripts
+    tooltip: Scripts folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 753f7fe34c105f2488a93761ac27a14c, type: 3}
+    smallIcon: {fileID: 2800000, guid: 753f7fe34c105f2488a93761ac27a14c, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Settings
+    path: Settings
+    tooltip: Settings folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 5e9916f2fb52ea64dbc418dcbd90bb71, type: 3}
+    smallIcon: {fileID: 2800000, guid: 5e9916f2fb52ea64dbc418dcbd90bb71, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Textures
+    path: Textures
+    tooltip: Textures folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 7688d80758627ce45b78eb1116e35de3, type: 3}
+    smallIcon: {fileID: 2800000, guid: 7688d80758627ce45b78eb1116e35de3, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Prefabs
+    path: Prefabs
+    tooltip: Prefabs folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 54686f965a6878f418010298aa9efa22, type: 3}
+    smallIcon: {fileID: 2800000, guid: 54686f965a6878f418010298aa9efa22, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Materials
+    path: Materials
+    tooltip: Materials folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 0ef10b50fb674614b90dc6d798d3503c, type: 3}
+    smallIcon: {fileID: 2800000, guid: 0ef10b50fb674614b90dc6d798d3503c, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Shaders
+    path: Shaders
+    tooltip: Shaders folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: cdbc8affd78cdde45b6bfa03c711ee98, type: 3}
+    smallIcon: {fileID: 2800000, guid: 0ef10b50fb674614b90dc6d798d3503c, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Presets
+    path: Presets
+    tooltip: Presets folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 76c16ade0785fd24c862bf76586e324d, type: 3}
+    smallIcon: {fileID: 2800000, guid: 76c16ade0785fd24c862bf76586e324d, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Sprites
+    path: Sprites
+    tooltip: Sprites folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 0b874ae963a893b499e3fa83f7baf0a1, type: 3}
+    smallIcon: {fileID: 2800000, guid: 0b874ae963a893b499e3fa83f7baf0a1, type: 3}
+    iconName: 
+  - dataType: 1
+    name: UI
+    path: Sprites
+    tooltip: UI folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 315d6300d09cadb4587d96dfa794f3c3, type: 3}
+    smallIcon: {fileID: 2800000, guid: 315d6300d09cadb4587d96dfa794f3c3, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Editor
+    path: Sprites
+    tooltip: Editor Scripts folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: b19e94c46e526434f8556d0e07dc4ccb, type: 3}
+    smallIcon: {fileID: 2800000, guid: b19e94c46e526434f8556d0e07dc4ccb, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Models
+    path: Sprites
+    tooltip: Models folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: c13de146e01880e458cc12266985733d, type: 3}
+    smallIcon: {fileID: 2800000, guid: c13de146e01880e458cc12266985733d, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Locales
+    path: Sprites
+    tooltip: Locales folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: e3c4ce93372247b4bb36ff97ae99888a, type: 3}
+    smallIcon: {fileID: 2800000, guid: c13de146e01880e458cc12266985733d, type: 3}
+    iconName: 
+  useToolboxSceneView: 1
+  selectorKey: 9
+  useToolboxDrawers: 1
+  forceDefaultLists: 0
+  decoratorDrawerHandlers:
+  - typeReference: Toolbox.Editor.Drawers.BeginGroupAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.BeginHorizontalAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.BeginHorizontalGroupAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.BeginIndentAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.BeginVerticalAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.DynamicHelpAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EditorButtonAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EndGroupAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EndHorizontalAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EndHorizontalGroupAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EndIndentAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EndVerticalAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.GuiColorAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.HelpAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.HighlightAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ImageAreaAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.IndentAreaAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.LabelAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.LabelWidthAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.LineAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.SpaceAreaAttributeDrawer, Toolbox.Editor
+  conditionDrawerHandlers:
+  - typeReference: Toolbox.Editor.Drawers.DisableAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.DisableIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.DisableInEditModeAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.DisableInPlayModeAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.EnableIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.HideAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.HideDisabledIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.HideIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ShowDisabledIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ShowIfAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ShowWarningIfAttributeDrawer, Toolbox.Editor
+  selfPropertyDrawerHandlers:
+  - typeReference: Toolbox.Editor.Drawers.DynamicMinMaxSliderAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.DynamicRangeAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.IgnoreParentAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.InLineEditorAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ReferencePickerAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.RegexValueAttributeDrawer, Toolbox.Editor
+  listPropertyDrawerHandlers:
+  - typeReference: Toolbox.Editor.Drawers.ReorderableListAttributeDrawer, Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ReorderableListExposedAttributeDrawer,
+      Toolbox.Editor
+  - typeReference: Toolbox.Editor.Drawers.ScrollableItemsAttributeDrawer, Toolbox.Editor
+  targetTypeDrawerHandlers:
+  - typeReference: Toolbox.Editor.Drawers.SerializedDictionaryDrawer, Toolbox.Editor

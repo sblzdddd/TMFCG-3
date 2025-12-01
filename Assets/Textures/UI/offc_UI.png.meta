@@ -1,0 +1,1412 @@
+fileFormatVersion: 2
+guid: b21cb3e819a312f41a47f9db9fd56d53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3013455714649234822
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_0
+  - first:
+      213: -7085506785795995956
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_1
+  - first:
+      213: 2435396483387693033
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_2
+  - first:
+      213: -2930181271191051722
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_3
+  - first:
+      213: -3104923907053589245
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_4
+  - first:
+      213: -4524663396411227573
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_5
+  - first:
+      213: 8681713695982346786
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_6
+  - first:
+      213: -1458753886793232388
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_7
+  - first:
+      213: -445308128447020408
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_8
+  - first:
+      213: -2250304617892497192
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_9
+  - first:
+      213: -7336590740095100603
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_10
+  - first:
+      213: 5175017910069395187
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_11
+  - first:
+      213: 8105610568679733131
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_12
+  - first:
+      213: -60902209801233435
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_13
+  - first:
+      213: -4107970610634029927
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_14
+  - first:
+      213: -5922141596933863943
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_15
+  - first:
+      213: 7950927121742760304
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_16
+  - first:
+      213: -2081021703996701123
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_17
+  - first:
+      213: -193023228429980728
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_18
+  - first:
+      213: 3592330852102806481
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_19
+  - first:
+      213: -1430907386264570335
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_20
+  - first:
+      213: 1575797079228372988
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_21
+  - first:
+      213: -8838754091875070831
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_22
+  - first:
+      213: 6348969731957172288
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_23
+  - first:
+      213: 1953898310736773608
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_24
+  - first:
+      213: -8301549089154318070
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_25
+  - first:
+      213: -5782746226141889892
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_26
+  - first:
+      213: -8082268234733491401
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_27
+  - first:
+      213: 5221251332672947221
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_28
+  - first:
+      213: -6000668387870755514
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_29
+  - first:
+      213: 1802980657631977153
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_30
+  - first:
+      213: -3437802853849174110
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_31
+  - first:
+      213: -4157030969153999254
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_32
+  - first:
+      213: 7884846240540448230
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_33
+  - first:
+      213: 2785080389784433520
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_34
+  - first:
+      213: 4194375937248365378
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_35
+  - first:
+      213: -2934989972176039904
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_36
+  - first:
+      213: -7535964047262453351
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_37
+  - first:
+      213: 7778648029320077946
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_38
+  - first:
+      213: -6622326162286264460
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_39
+  - first:
+      213: -1600033787326697952
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_40
+  - first:
+      213: 7561587881433934028
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_41
+  - first:
+      213: -8789773328031266751
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_42
+  - first:
+      213: -1790713417461835177
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_43
+  - first:
+      213: 7879769043671230724
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_44
+  - first:
+      213: 8393326250655428671
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_45
+  - first:
+      213: -9218409941369397312
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_46
+  - first:
+      213: -7234259977109651749
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_47
+  - first:
+      213: -5491651673629474757
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_48
+  - first:
+      213: -4379191355489232775
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_49
+  - first:
+      213: -3190668273982854433
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_50
+  - first:
+      213: -6646679054256067925
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_51
+  - first:
+      213: 8171238543152067692
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_52
+  - first:
+      213: -9095082271240285411
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_53
+  - first:
+      213: -7509496447072628476
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_54
+  - first:
+      213: 2191908002313811743
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_55
+  - first:
+      213: -6607456513729811042
+    second: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 64
+    resizeAlgorithm: 1
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 49
+    textureCompression: 1
+    compressionQuality: 30
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dd90aa102f1d920800000000000000
+      internalID: 3013455714649234822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 210
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc682037e193bad90800000000000000
+      internalID: -7085506785795995956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NO_PAUSE
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 223
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e71f87c2344cc120800000000000000
+      internalID: 2435396483387693033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_FRAME_HIGHLIGHT
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 154
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 21, y: 22, z: 21, w: 21}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a72b98a7e557d0800000000000000
+      internalID: -2930181271191051722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SWITCH_OFF
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 188
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30de379382819e4d0800000000000000
+      internalID: -3104923907053589245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_5
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 213
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4242b81d9a2531c0800000000000000
+      internalID: -4524663396411227573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_6
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 125
+        width: 16
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 10, z: 0, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222ebaadb94ab7870800000000000000
+      internalID: 8681713695982346786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 123
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 9, z: 0, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff08fa911771cbe0800000000000000
+      internalID: -1458753886793232388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SLIDER_KNOB
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 184
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 9, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8824254dd92f1d9f0800000000000000
+      internalID: -445308128447020408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 157
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 3, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8b8166fdf45c0e0800000000000000
+      internalID: -2250304617892497192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 153
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5491632c7913f2a90800000000000000
+      internalID: -7336590740095100603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SLIDER_BG
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 189
+        width: 69
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 0, z: 13, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe78fbee5b51d740800000000000000
+      internalID: 5175017910069395187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SWITCH_ON
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 182
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebd2ca43c1a72ff0800000000000000
+      internalID: -60902209801233435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_14
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 175
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9940a6d9e7e8df6c0800000000000000
+      internalID: -4107970610634029927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_15
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 177
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5413d289350dda0800000000000000
+      internalID: -5922141596933863943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 90
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790f76671e575e60800000000000000
+      internalID: 7950927121742760304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DOT
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 154
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36066339c9be13e0800000000000000
+      internalID: -2081021703996701123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 116
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb280c756e325df0800000000000000
+      internalID: -193023228429980728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SLIDER_BG_HIGHLIGHT
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 149
+        width: 69
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 0, z: 13, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db934380e58ad130800000000000000
+      internalID: 3592330852102806481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_FRAME
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 110
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 19, z: 18, w: 18}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126b73f3055642ce0800000000000000
+      internalID: -1430907386264570335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_21
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 125
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf75189381b5ed510800000000000000
+      internalID: 1575797079228372988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PAUSE_HIGHLIGHT
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 149
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c81c0bbff665580800000000000000
+      internalID: -8838754091875070831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_23
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 152
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048a30b35521c1850800000000000000
+      internalID: 6348969731957172288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 64
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e183b25924ad1b10800000000000000
+      internalID: 1953898310736773608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 60
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a014d7f3619facc80800000000000000
+      internalID: -8301549089154318070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BTN_NORMAL
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 105
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 3, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af49412fe8fbfa0800000000000000
+      internalID: -5782746226141889892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 116
+        width: 84
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 0, z: 12, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b6949bcd306df80800000000000000
+      internalID: -8082268234733491401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_28
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 124
+        width: 72
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 4, z: 3, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51481077c6c957840800000000000000
+      internalID: 5221251332672947221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_29
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 126
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6453c06e4e759bca0800000000000000
+      internalID: -6000668387870755514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 63
+        width: 139
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cedd030b59750910800000000000000
+      internalID: 1802980657631977153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BTN_HIGHLIGHT
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 66
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 3, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afee78c4887a40d0800000000000000
+      internalID: -3437802853849174110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BTN_DISABLED
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 66
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 3, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e2743cb524f46c0800000000000000
+      internalID: -4157030969153999254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SCROLL_BG
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 62
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 7, z: 0, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5dcfb41e99c6d60800000000000000
+      internalID: 7884846240540448230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_34
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1
+        width: 115
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073f108cbd796a620800000000000000
+      internalID: 2785080389784433520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_35
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1
+        width: 94
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b822231ba653a30800000000000000
+      internalID: 4194375937248365378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_36
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 40, z: 18, w: 18}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0201d19ab22d447d0800000000000000
+      internalID: -2934989972176039904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PROGRESS_BG
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 644
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9917ec250a0ea6790800000000000000
+      internalID: -7535964047262453351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PROGRESS_FG
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 626
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a726a6c6b2f43fb60800000000000000
+      internalID: 7778648029320077946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_55
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 29
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17304207b83b6e10800000000000000
+      internalID: 2191908002313811743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_56
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d2b4efe499d44a0800000000000000
+      internalID: -6607456513729811042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PAUSe
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 175
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51a0afd22f3a76438b2ae39c65fc67d
+      internalID: 586206513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offc_UI_1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 172
+        width: 72
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 4, z: 3, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201532fb2a54b924b97e8013406e3804
+      internalID: -1291365021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offc_UI_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 182
+        width: 72
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 4, z: 4, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96956100a0a72114589f763736a1e161
+      internalID: -1163137475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SCROLLBAR_KNOB
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 222
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 0, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e5f1a42475b4f408e27aa3446fec51
+      internalID: -1451074858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offc_UI_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 110
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b54cad9c308ca34ba2e8d7693e3be0d
+      internalID: 575484170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offc_UI_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 115
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96191326c5ee0ea4eaab27555edebec7
+      internalID: 1097371514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offc_UI_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 115
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de1219171e52f34a9dcd0a08c6f665b
+      internalID: 1766820922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ba58cab0172c96a42b2ad371a08e5830
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI_BTN_DISABLED: -4157030969153999254
+      UI_BTN_HIGHLIGHT: -3437802853849174110
+      UI_BTN_NORMAL: -5782746226141889892
+      UI_DOT: -2081021703996701123
+      UI_FRAME: -1430907386264570335
+      UI_FRAME_HIGHLIGHT: -2930181271191051722
+      UI_NO_PAUSE: 2435396483387693033
+      UI_PAUSE_HIGHLIGHT: -8838754091875070831
+      UI_PAUSe: 586206513
+      UI_PROGRESS_BG: -7535964047262453351
+      UI_PROGRESS_FG: 7778648029320077946
+      UI_SCROLLBAR_KNOB: -1451074858
+      UI_SCROLL_BG: 7884846240540448230
+      UI_SLIDER_BG: 5175017910069395187
+      UI_SLIDER_BG_HIGHLIGHT: 3592330852102806481
+      UI_SLIDER_KNOB: -445308128447020408
+      UI_SWITCH_OFF: -3104923907053589245
+      UI_SWITCH_ON: -60902209801233435
+      offc_UI_1: -1291365021
+      offc_UI_2: -1163137475
+      offc_UI_4: 575484170
+      offc_UI_5: 1097371514
+      offc_UI_6: 1766820922
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_0: 3013455714649234822
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_1: -7085506785795995956
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_10: -7336590740095100603
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_12: 8105610568679733131
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_14: -4107970610634029927
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_15: -5922141596933863943
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_16: 7950927121742760304
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_18: -193023228429980728
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_21: 1575797079228372988
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_23: 6348969731957172288
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_24: 1953898310736773608
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_25: -8301549089154318070
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_27: -8082268234733491401
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_28: 5221251332672947221
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_29: -6000668387870755514
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_30: 1802980657631977153
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_34: 2785080389784433520
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_35: 4194375937248365378
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_36: -2934989972176039904
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_39: -6622326162286264460
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_40: -1600033787326697952
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_41: 7561587881433934028
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_42: -8789773328031266751
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_43: -1790713417461835177
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_44: 7879769043671230724
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_45: 8393326250655428671
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_46: -9218409941369397312
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_47: -7234259977109651749
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_48: -5491651673629474757
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_49: -4379191355489232775
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_5: -4524663396411227573
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_50: -3190668273982854433
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_51: -6646679054256067925
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_52: 8171238543152067692
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_53: -9095082271240285411
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_54: -7509496447072628476
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_55: 2191908002313811743
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_56: -6607456513729811042
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_6: 8681713695982346786
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_7: -1458753886793232388
+      sactx-0-1024x256-Uncompressed-Common_Controls_Atlas-fcbacead_9: -2250304617892497192
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

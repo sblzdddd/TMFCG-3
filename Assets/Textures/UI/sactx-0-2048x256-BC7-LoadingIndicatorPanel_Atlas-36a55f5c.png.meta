@@ -1,0 +1,802 @@
+fileFormatVersion: 2
+guid: e5e29053559c9ee4586e00d018e4fec9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 658840866093537962
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_0
+  - first:
+      213: -9036380748692903755
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_1
+  - first:
+      213: -6047539638186968174
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_2
+  - first:
+      213: -2768559346937791229
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_3
+  - first:
+      213: -5803416608879672761
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_4
+  - first:
+      213: 4286180523455646873
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_5
+  - first:
+      213: 8373021928517879292
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_6
+  - first:
+      213: -7045672533784950224
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_7
+  - first:
+      213: -7551658759753087452
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_8
+  - first:
+      213: 886300150427753759
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_9
+  - first:
+      213: -2710111999910457891
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_10
+  - first:
+      213: -6810625273246024488
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_11
+  - first:
+      213: 8931616736461554379
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_12
+  - first:
+      213: -7121486446396710108
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_13
+  - first:
+      213: 6063024933174412061
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_14
+  - first:
+      213: -5756096385866657228
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_15
+  - first:
+      213: -3057176535629960405
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_16
+  - first:
+      213: -4704863809461436793
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_17
+  - first:
+      213: 8339486195508108608
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_18
+  - first:
+      213: -5541332346959615036
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_19
+  - first:
+      213: -7834341808045868703
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_20
+  - first:
+      213: 1678618855517806406
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_21
+  - first:
+      213: -1893595348322396769
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_22
+  - first:
+      213: 7050450868085223973
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_23
+  - first:
+      213: -5220358358124610133
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_24
+  - first:
+      213: -6704572352880306979
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_25
+  - first:
+      213: -1868122764181363702
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_26
+  - first:
+      213: -1621744255323202657
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_27
+  - first:
+      213: -6649420557273530334
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_28
+  - first:
+      213: -4637246441826374630
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_29
+  - first:
+      213: -8972604596134826850
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_30
+  - first:
+      213: -3487264059935167127
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_31
+  - first:
+      213: 5332111655019109299
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_32
+  - first:
+      213: -6265412527159753317
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_33
+  - first:
+      213: 4288037295118046044
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_34
+  - first:
+      213: 2816063157815405154
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_35
+  - first:
+      213: 4075095205199605906
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_36
+  - first:
+      213: 6758028713081687538
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_37
+  - first:
+      213: -6529457678837747610
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_38
+  - first:
+      213: -2360169144192118393
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_39
+  - first:
+      213: 5900405285108267983
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_40
+  - first:
+      213: 1227636268014783255
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_41
+  - first:
+      213: -8768651018593788268
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_42
+  - first:
+      213: -3065431718187799241
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_43
+  - first:
+      213: 5264232015521616962
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_44
+  - first:
+      213: -503035548691015586
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_45
+  - first:
+      213: 7981132819435470763
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_46
+  - first:
+      213: 4008275413104200432
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_47
+  - first:
+      213: 811904240361904549
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_48
+  - first:
+      213: 5122267106890377175
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_49
+  - first:
+      213: 5556402388533421661
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_50
+  - first:
+      213: -6232382193971141681
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_51
+  - first:
+      213: -1386323032563222798
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_52
+  - first:
+      213: 3333015951267814696
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_53
+  - first:
+      213: 8056093582651499252
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_54
+  - first:
+      213: 1230529001530692155
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_55
+  - first:
+      213: -3739063350315458337
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_56
+  - first:
+      213: -2921496571617474523
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_57
+  - first:
+      213: 1905466210847720532
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_58
+  - first:
+      213: 4666828810691871709
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_59
+  - first:
+      213: -8593121062399374290
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_60
+  - first:
+      213: -305194521070201727
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_61
+  - first:
+      213: 2590088022966112477
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_62
+  - first:
+      213: 5337059497539287433
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_63
+  - first:
+      213: 6477909010748935709
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_64
+  - first:
+      213: 2337651975304169969
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_65
+  - first:
+      213: 8384717614669733098
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_66
+  - first:
+      213: -9149680031313718592
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_67
+  - first:
+      213: 8585522566947076142
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_68
+  - first:
+      213: -1504090155904245767
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_69
+  - first:
+      213: -248453085881960870
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_70
+  - first:
+      213: -8640950138986014659
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_71
+  - first:
+      213: -8640634210468231597
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_72
+  - first:
+      213: 1616486405578768315
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_73
+  - first:
+      213: 1592453117502821827
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_74
+  - first:
+      213: 2089016094885475260
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_75
+  - first:
+      213: 1315357638236151799
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_76
+  - first:
+      213: 2422188043384658815
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_77
+  - first:
+      213: 6791845055786240536
+    second: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660fdece5d4b265a0800000000000000
+      internalID: -6529457678837747610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e995d5b5e7f4680800000000000000
+      internalID: -8768651018593788268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d633af7166575d0800000000000000
+      internalID: -3065431718187799241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c02cb0ce91fb880800000000000000
+      internalID: -8593121062399374290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1841738333bb3cbf0800000000000000
+      internalID: -305194521070201727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd093e18557d1f320800000000000000
+      internalID: 2590088022966112477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98934f7065b011a40800000000000000
+      internalID: 5337059497539287433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_64
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e0ef08ce726e950800000000000000
+      internalID: 6477909010748935709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec99541f308c5470800000000000000
+      internalID: 8384717614669733098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 168
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe495144c46abc0499c048290b850ef2
+      internalID: 962975554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 168
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aad70cbcf47f62428f679c4c2fc6a97
+      internalID: -721433227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f480016a3d6e6a4c9b014b10c263674
+      internalID: -1010444548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1572ebed3fbdb54499e918e4e5512cda
+      internalID: 1773940509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3719f9fee780e04090a34e4bfab93d4
+      internalID: 201746999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9de7d9c0f55f24486371971c9d5cdf
+      internalID: -1890827696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba5a4ba6d7744f448b2fc3bad95567c
+      internalID: -520446536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 987e9e3917a8acd45a1875d36859575f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":24.0,"y":8.0},"gridSpritePadding":{"x":4.0,"y":4.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      1: 1773940509
+      10: 5337059497539287433
+      11: 2590088022966112477
+      12: -305194521070201727
+      13: -8593121062399374290
+      14: -6529457678837747610
+      15: -1010444548
+      2: 201746999
+      3: -1890827696
+      4: 962975554
+      5: -520446536
+      6: -721433227
+      7: 8384717614669733098
+      8: -8768651018593788268
+      9: -3065431718187799241
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_0: 658840866093537962
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_1: -9036380748692903755
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_10: -2710111999910457891
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_11: -6810625273246024488
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_12: 8931616736461554379
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_13: -7121486446396710108
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_14: 6063024933174412061
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_17: -4704863809461436793
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_18: 8339486195508108608
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_19: -5541332346959615036
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_2: -6047539638186968174
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_20: -7834341808045868703
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_21: 1678618855517806406
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_22: -1893595348322396769
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_23: 7050450868085223973
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_24: -5220358358124610133
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_25: -6704572352880306979
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_26: -1868122764181363702
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_27: -1621744255323202657
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_28: -6649420557273530334
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_29: -4637246441826374630
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_3: -2768559346937791229
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_30: -8972604596134826850
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_31: -3487264059935167127
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_32: 5332111655019109299
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_33: -6265412527159753317
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_34: 4288037295118046044
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_35: 2816063157815405154
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_36: 4075095205199605906
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_4: -5803416608879672761
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_44: 5264232015521616962
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_45: -503035548691015586
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_46: 7981132819435470763
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_47: 4008275413104200432
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_48: 811904240361904549
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_49: 5122267106890377175
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_5: 4286180523455646873
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_50: 5556402388533421661
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_51: -6232382193971141681
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_52: -1386323032563222798
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_53: 3333015951267814696
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_54: 8056093582651499252
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_55: 1230529001530692155
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_56: -3739063350315458337
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_57: -2921496571617474523
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_58: 1905466210847720532
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_59: 4666828810691871709
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_6: 8373021928517879292
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_64: 6477909010748935709
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_67: -9149680031313718592
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_7: -7045672533784950224
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_8: -7551658759753087452
+      sactx-0-2048x256-BC7-LoadingIndicatorPanel_Atlas-36a55f5c_9: 886300150427753759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

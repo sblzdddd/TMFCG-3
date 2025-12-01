@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 2fdcb6d3854910542b03a16492b295ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7753893239696952860
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_0
+  - first:
+      213: 8397662042251189992
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_1
+  - first:
+      213: -3868608352396580385
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_2
+  - first:
+      213: -3896870480540200915
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_3
+  - first:
+      213: -1011978440738806658
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_4
+  - first:
+      213: 8000733210355058089
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_5
+  - first:
+      213: 443998913475733902
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_6
+  - first:
+      213: 771764400584159685
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_7
+  - first:
+      213: 5661055238021520894
+    second: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 961
+        width: 228
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e8072d1dc5b9b60800000000000000
+      internalID: 7753893239696952860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 956
+        width: 185
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eed92c722d7a8470800000000000000
+      internalID: 8397662042251189992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 234
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9ea444331ff4ac0800000000000000
+      internalID: -3868608352396580385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 894
+        width: 234
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2012b7c1f88be9c0800000000000000
+      internalID: -3896870480540200915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 747
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74e86748fab4f1f0800000000000000
+      internalID: -1011978440738806658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 83
+        width: 76
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a542e11770580f60800000000000000
+      internalID: 8000733210355058089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89616ec8a6692600800000000000000
+      internalID: 443998913475733902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_7
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 151
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c17c1322abd5ba00800000000000000
+      internalID: 771764400584159685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 45
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd1324debb109e40800000000000000
+      internalID: 5661055238021520894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_0: 7753893239696952860
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_1: 8397662042251189992
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_2: -3868608352396580385
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_3: -3896870480540200915
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_4: -1011978440738806658
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_5: 8000733210355058089
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_6: 443998913475733902
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_7: 771764400584159685
+      sactx-0-1024x1024-BC7-DaySceneIzakayaSelectionPannel_Atlas-ce3d2777_8: 5661055238021520894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
