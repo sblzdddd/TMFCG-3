@@ -19,6 +19,7 @@ namespace SimpleMystiaUI.Editor
             var valueProp = serializedObject.FindProperty("m_Value");
             var wholeNumbersProp = serializedObject.FindProperty("m_WholeNumbers");
             var stepSizeProp = serializedObject.FindProperty("m_StepSize");
+            var displayTextProp = serializedObject.FindProperty("m_ValueDisplay");
             
             // Draw min value field and ensure max stays above min
             EditorGUI.BeginChangeCheck();
@@ -128,6 +129,7 @@ namespace SimpleMystiaUI.Editor
             EditorGUILayout.Space();
             base.OnInspectorGUI();
             EditorGUILayout.PropertyField(serializedObject.FindProperty("m_OnValueChanged"));
+            EditorGUILayout.PropertyField(displayTextProp);
             serializedObject.ApplyModifiedProperties();
         }
     }

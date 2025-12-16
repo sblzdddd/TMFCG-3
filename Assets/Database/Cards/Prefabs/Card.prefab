@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 8887928065571552171}
   - component: {fileID: 1519221529765422432}
   - component: {fileID: 1815462638786654600}
+  - component: {fileID: 3878717610535270036}
   m_Layer: 6
   m_Name: CardOutline
   m_TagString: Untagged
@@ -173,7 +174,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 1.02, y: 1.012, z: 1.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5241903172452047694}
@@ -234,6 +235,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3878717610535270036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403122533122105259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170bc7454455496290fbaf3312e32c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.CardOutlineManager
+  defaultOutlineColor: {r: 15.813409, g: 6.8717957, b: 0, a: 1}
+  defaultOutlineSize: {x: 1.02, y: 1.012, z: 1}
+  radiusBefore: 0.026
+  radiusAfter: 0.032
+  ease: 5
 --- !u!1 &3150467094375713797
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +352,7 @@ GameObject:
   - component: {fileID: 6908963874074911218}
   - component: {fileID: 1558527187517803466}
   - component: {fileID: 7776352063830518270}
+  - component: {fileID: 4531727199156304395}
   m_Layer: 6
   m_Name: Name
   m_TagString: Untagged
@@ -514,10 +533,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081983198429ca646819e49c577769fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ntw.CurvedTextMeshPro.TextProOnACircle
-  m_radius: 3.54
-  m_arcDegrees: 58.44
-  m_angularOffset: -90
-  m_maxDegreesPerLetter: 4
+  mRadius: 3.54
+  mArcDegrees: 58.44
+  mAngularOffset: -90
+  mMaxDegreesPerLetter: 4
+--- !u!114 &4531727199156304395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412088608903041844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4969d0de0e584e8eaba1b1f759fab76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.CardTitleManager
 --- !u!1 &4303740841396145587
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +951,7 @@ GameObject:
   - component: {fileID: 5261516150316536469}
   - component: {fileID: 6972097774804455297}
   - component: {fileID: 1258738707620256690}
+  - component: {fileID: 8260432885701082477}
   m_Layer: 6
   m_Name: Card
   m_TagString: Card
@@ -1028,6 +1060,30 @@ MonoBehaviour:
   cardBottomRenderer: {fileID: 5512418633996738012}
   cardExtraContentRenderer: {fileID: 2253649672257422216}
   cardCharacterManager: {fileID: 3680187992829626577}
+  cardTitleManager: {fileID: 4531727199156304395}
+  cardOutlineManager: {fileID: 3878717610535270036}
+--- !u!64 &8260432885701082477
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428202776066498819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7791182746683950927
 GameObject:
   m_ObjectHideFlags: 0

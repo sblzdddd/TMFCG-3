@@ -1,6 +1,6 @@
+using LitMotion;
 using UnityEngine;
 using UnityEngine.UI;
-using PrimeTween;
 
 namespace SimpleMystiaUI.Sliders
 {
@@ -14,7 +14,7 @@ namespace SimpleMystiaUI.Sliders
         private Transform m_HandleTransform;
         private RectTransform m_HandleContainerRect;
         private DrivenRectTransformTracker m_Tracker;
-        private Tween? m_CurrentTween;
+        private MotionHandle? m_CurrentTween;
 
         // Duration for the slider tween animation in seconds
         private const float TweenDurationDrag = 0.1f;
@@ -29,9 +29,8 @@ namespace SimpleMystiaUI.Sliders
 
         private void SafeKillTween()
         {
-            if (m_CurrentTween == null) return;
-            m_CurrentTween.Value.Complete();
-            m_CurrentTween = null;
+            if (m_CurrentTween == null || !m_CurrentTween.Value.IsPlaying()) return;
+            m_CurrentTween.Value.TryCancel();
         }
 
         public void UpdateVisuals(float normalizedValue, bool instant = false, bool isDragging = false)
@@ -61,13 +60,13 @@ namespace SimpleMystiaUI.Sliders
                     }
                     else
                     {
-                        m_CurrentTween = Tween.Custom(
+                        m_CurrentTween = LMotion.Create(
                             m_FillImage.fillAmount,
                             normalizedValue,
-                            duration: tweenDuration,
-                            onValueChange: x => m_FillImage.fillAmount = x,
-                            ease: Ease.OutQuad
-                        );
+                            tweenDuration
+                        )
+                            .WithEase(Ease.OutQuad)
+                            .Bind(x => m_FillImage.fillAmount = x);
                     }
                 }
                 else
@@ -81,16 +80,16 @@ namespace SimpleMystiaUI.Sliders
                     else
                     {
                         Vector2 currentAnchorMax = m_FillRect.anchorMax;
-                        m_CurrentTween = Tween.Custom(
+                        m_CurrentTween = LMotion.Create(
                             currentAnchorMax.x,
                             normalizedValue,
-                            duration: tweenDuration,
-                            onValueChange: x =>
+                            duration: tweenDuration
+                        ).WithEase(Ease.OutQuad)
+                        .Bind(x =>
                             {
                                 currentAnchorMax.x = x;
                                 m_FillRect.anchorMax = currentAnchorMax;
-                            },
-                            ease: Ease.OutQuad
+                            }
                         );
                         m_FillRect.anchorMin = anchorMin;
                     }
@@ -113,18 +112,18 @@ namespace SimpleMystiaUI.Sliders
                 {
                     Vector2 currentAnchorMin = m_HandleRect.anchorMin;
                     Vector2 currentAnchorMax = m_HandleRect.anchorMax;
-                    m_CurrentTween = Tween.Custom(
+                    m_CurrentTween = LMotion.Create(
                         currentAnchorMin.x,
                         normalizedValue,
-                        duration: tweenDuration,
-                        onValueChange: x =>
+                        duration: tweenDuration
+                    ).WithEase(Ease.OutQuad)
+                    .Bind(x =>
                         {
                             currentAnchorMin.x = x;
                             currentAnchorMax.x = x;
                             m_HandleRect.anchorMin = currentAnchorMin;
                             m_HandleRect.anchorMax = currentAnchorMax;
-                        },
-                        ease: Ease.OutQuad
+                        }
                     );
                 }
             }

@@ -15,13 +15,18 @@ namespace Managers.Card
         [SerializeField] private MeshRenderer cardBottomRenderer;
         [SerializeField] private MeshRenderer cardExtraContentRenderer;
         [SerializeField] private CharacterManager cardCharacterManager;
+        [SerializeField] private CardTitleManager cardTitleManager;
+        [SerializeField] private CardOutlineManager cardOutlineManager;
+        
+        private bool isSelected;
+        
+        public bool IsSelected => isSelected;
 
         private void Awake()
         {
             cardBaseRenderer = GetComponent<MeshRenderer>();
             
-            MeshRenderer[] renderers = new MeshRenderer[]
-            {
+            MeshRenderer[] renderers = {
                 cardBaseRenderer,
                 cardTopRenderer,
                 cardBottomRenderer,
@@ -36,6 +41,16 @@ namespace Managers.Card
                     r.material = new Material(r.sharedMaterial);
                 }
             }
+        }
+
+        public void SetSelected(bool selected)
+        {
+            if (!cardOutlineManager) return;
+            isSelected = selected;
+            if (selected)
+                cardOutlineManager.EnableOutline();
+            else
+                cardOutlineManager.DisableOutline();
         }
     }
 }

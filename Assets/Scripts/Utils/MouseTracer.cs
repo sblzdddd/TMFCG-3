@@ -1,40 +1,34 @@
 using UnityEngine;
-using UnityEngine.UI;
-#if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
-#endif
+using UnityEngine.UI;
 
-[RequireComponent(typeof(RawImage))]
-public class MouseTracer : MonoBehaviour
+namespace Utils
 {
-    RawImage uiImage;
-    RectTransform uiRect;
-
-    void Awake()
+    [RequireComponent(typeof(RawImage))]
+    public class MouseTracer : MonoBehaviour
     {
-        uiImage = GetComponent<RawImage>();
-        uiRect = uiImage.rectTransform;
-    }
+        private RawImage uiImage;
+        private RectTransform uiRect;
 
-    void Update()
-    {
-        if (!TryGetMouseScreenPosition(out var mouseScreen)) return;
+        private void Awake()
+        {
+            uiImage = GetComponent<RawImage>();
+            uiRect = uiImage.rectTransform;
+        }
+
+        private void Update()
+        {
+            if (Mouse.current == null) return;
+            
+            var mouseScreen = Mouse.current.position.ReadValue();
         
-        if (uiRect)
-        {
-            uiRect.position = mouseScreen;
-        }
-    }
+            if (uiRect) uiRect.position = mouseScreen;
+            
+            var isInside = mouseScreen.x >= 0 && mouseScreen.x <= Screen.width &&
+                           mouseScreen.y >= 0 && mouseScreen.y <= Screen.height;
 
-    bool TryGetMouseScreenPosition(out Vector3 screenPos)
-    {
-        if (Mouse.current == null)
-        {
-            screenPos = default;
-            return false;
+            // Set visibility based on position
+            Cursor.visible = !isInside;
         }
-        Vector2 p = Mouse.current.position.ReadValue();
-        screenPos = new Vector3(p.x, p.y, 0f);
-        return true;
     }
 }

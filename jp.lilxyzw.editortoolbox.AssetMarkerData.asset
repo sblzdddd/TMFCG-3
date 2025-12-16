@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734eb365d8ff93c4fa01706aa993bb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: jp.lilxyzw.editortoolbox::jp.lilxyzw.editortoolbox.AssetMarkerData
+  colors:
+  - guid: 22a2a346cbb2a1a4595d32feb0ecd49d
+    color: {r: 0.9, g: 0.837, b: 0.27, a: 1}

@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -15,6 +17,7 @@ namespace SimpleMystiaUI.Sliders
     {
         [SerializeField] private RectTransform m_FillRect;
         [SerializeField] private RectTransform m_HandleRect;
+        [SerializeField] private TMP_Text m_ValueDisplay;
 
         private MSliderVisuals m_Visuals;
         private MSliderInput m_Input;
@@ -49,6 +52,8 @@ namespace SimpleMystiaUI.Sliders
                 m_Visuals?.UpdateCachedReferences();
 #endif
             m_Visuals?.UpdateVisuals(normalizedValue, false, m_IsDragging);
+            if(m_ValueDisplay)
+                m_ValueDisplay.text = value.ToString("F2");
         }
 
         public virtual void Rebuild(CanvasUpdate executing)

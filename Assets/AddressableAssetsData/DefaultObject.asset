@@ -11,5 +11,5 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a189bb168d8d90478a09ea08c2f3d72, type: 3}
   m_Name: DefaultObject
-  m_EditorClassIdentifier: 
-  m_AddressableAssetSettingsGuid: dbefdbf55aede0145b6b157c4c3d2ed6
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject
+  m_AddressableAssetSettingsGuid: dd6ab90dc1999a04490e4608f2b45c83
