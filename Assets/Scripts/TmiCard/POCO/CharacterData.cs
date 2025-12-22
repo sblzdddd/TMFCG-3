@@ -9,7 +9,7 @@ namespace TmiCard.POCO
     {
         public string image;
         [ReorderableList]
-        public List<float> transform;
+        public Vector3 transform;
     }
     
     [Serializable]

@@ -67,7 +67,7 @@ def parse_character_item(item, index) -> Dict[str, str]:
 		for img in oldCharacter["images"]:
 			data["variants"].append({
 				"image": oldCharacter["image_prefix"] + " " + img,
-				"transform": [0.0, 0.0, 1.0]
+				"transform": {"x": 0.0, "y": 0.0, "z": 1.0}
 			})
 
 	return data
@@ -91,7 +91,7 @@ def parse_characters_from_html(html_path: Path) -> List[Dict[str, str]]:
 	fallback_character["enName"] = fallback_character.get("en_name", "").split("，")
 	fallback_character["nickname"] = [fallback_character.get("nickname", "")]
 	fallback_character["jpName"] = fallback_character.get("jp_name", "")
-	fallback_character["variants"] = [{"image": fallback_character.get("image_prefix", ""), "transform": [0.0, 0.0, 1.0]}]
+	fallback_character["variants"] = [{"image": fallback_character.get("image_prefix", ""), "transform": {"x": 0.0, "y": 0.0, "z": 1.0}}]
 	del fallback_character["en_name"]
 	del fallback_character["jp_name"]
 	del fallback_character["image_prefix"]

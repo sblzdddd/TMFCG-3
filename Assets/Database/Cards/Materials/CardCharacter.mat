@@ -115,9 +115,9 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 0
     - _CastShadows: 0
-    - _CharacterScale: 0.88
+    - _CharacterScale: 1
     - _CharacterX: 0
-    - _CharacterY: 0.1
+    - _CharacterY: 0
     - _Cull: 2
     - _DstBlend: 0
     - _DstBlendAlpha: 0

@@ -5,6 +5,8 @@ using Cysharp.Threading.Tasks;
 using TmiCard.POCO;
 using UnityEngine;
 using UnityEngine.UI;
+using Managers;
+using VContainer;
 
 namespace Panels.CardCustom
 {
@@ -13,6 +15,7 @@ namespace Panels.CardCustom
     {
         [SerializeField] [PrefabObjectOnly] [NotNull] public GameObject characterButtonPrefab;
         [SerializeField] [NotNull] public ScrollRect scrollRect;
+        [Inject] private readonly CharacterEditor characterEditor;
         private readonly List<GameObject> characterButtons = new();
         private CancellationTokenSource refreshCts;
         private int refreshVersion;
@@ -38,8 +41,9 @@ namespace Panels.CardCustom
                 characterButtons.ForEach(Destroy);
                 characterButtons.Clear();
                 LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect.content);
-                foreach (var variant in characterData.variants)
+                for (var i = 0; i < characterData.variants.Count; i++)
                 {
+                    var variant = characterData.variants[i];
                     if (token.IsCancellationRequested) return;
                     
                     if (characterButtons.Count % 5 == 0)
@@ -51,7 +55,7 @@ namespace Panels.CardCustom
                     characterButtons.Add(btnGo);
                     var btn = btnGo.GetComponent<CharacterIconToggle>();
                     if (btn == null) return;
-                    loadingTasks.Add(LoadWithVersionCheck(btn, variant.image, myVersion, token));
+                    loadingTasks.Add(LoadWithVersionCheck(btn, variant.image, myVersion, token, characterData, i));
                     // Capture the first toggle reference for auto-select after load
                     if (firstToggle == null)
                     {
@@ -81,7 +85,9 @@ namespace Panels.CardCustom
             CharacterIconToggle btn,
             string image,
             int version,
-            CancellationToken token)
+            CancellationToken token,
+            CharacterData data,
+            int index)
         {
             if (version != refreshVersion) return;
             await btn.LoadCharacterIcon(image, token);
@@ -92,6 +98,7 @@ namespace Panels.CardCustom
             toggle.onValueChanged.AddListener((val) =>
             {
                 if(!val) return;
+                characterEditor.SelectCharacter(data.characterId, index);
                 Debug.Log(image);
             });
         }

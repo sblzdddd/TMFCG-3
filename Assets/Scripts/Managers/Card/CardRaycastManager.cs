@@ -44,15 +44,14 @@ namespace Managers.Card
             var mousePos = Mouse.current.position.ReadValue();
             var ray = cam.ScreenPointToRay(mousePos);
 
-            if (Physics.Raycast(ray, out var hit, raycastDistance, raycastLayerMask))
-            {
-                var hitTransform = hit.collider.transform;
-                if (!hitTransform.CompareTag("Card")) return false;
-                card = hitTransform.GetComponent<CardManager>();
-                return card;
-            }
+            if (!Physics.Raycast(ray, out var hit, raycastDistance, raycastLayerMask)) 
+                return false;
+            
+            var hitTransform = hit.collider.transform;
+            if (!hitTransform.CompareTag("Card")) return false;
+            card = hitTransform.GetComponent<CardManager>();
+            return card;
 
-            return false;
         }
     }
 }

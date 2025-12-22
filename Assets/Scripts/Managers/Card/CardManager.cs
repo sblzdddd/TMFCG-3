@@ -14,13 +14,11 @@ namespace Managers.Card
         [SerializeField] private MeshRenderer cardTopRenderer;
         [SerializeField] private MeshRenderer cardBottomRenderer;
         [SerializeField] private MeshRenderer cardExtraContentRenderer;
-        [SerializeField] private CharacterManager cardCharacterManager;
+        [SerializeField] private CardCharacterManager cardCardCharacterManager;
         [SerializeField] private CardTitleManager cardTitleManager;
         [SerializeField] private CardOutlineManager cardOutlineManager;
-        
-        private bool isSelected;
-        
-        public bool IsSelected => isSelected;
+
+        public bool IsSelected { get; private set; }
 
         private void Awake()
         {
@@ -43,10 +41,17 @@ namespace Managers.Card
             }
         }
 
+        private IDisposable characterSubscription;
+
+        private void OnDestroy()
+        {
+            characterSubscription?.Dispose();
+        }
+
         public void SetSelected(bool selected)
         {
             if (!cardOutlineManager) return;
-            isSelected = selected;
+            IsSelected = selected;
             if (selected)
                 cardOutlineManager.EnableOutline();
             else

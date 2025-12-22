@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Managers;
+using Repositories;
 using TmiCard.POCO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +18,8 @@ namespace Panels.CardCustom
         [SerializeField] [NotNull] public Button refreshGridButton;
         [SerializeField] [NotNull] public ScrollRect scrollRect;
         [SerializeField] [NotNull] public VariantListView variantListView;
-        [Inject] private readonly CharacterConfigService characterConfigService;
+        [Inject] private readonly CharacterRepository repository;
+        [Inject] private readonly CharacterEditor editor;
         private readonly List<GameObject> characterButtons = new();
         private CancellationTokenSource refreshCts;
         private int refreshVersion;
@@ -43,7 +45,7 @@ namespace Panels.CardCustom
                 characterButtons.ForEach(Destroy);
                 characterButtons.Clear();
                 LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect.content);
-                foreach (var characterData in characterConfigService.characters)
+                foreach (var characterData in repository.Characters)
                 {
                     if (characterData.variants.Count <= 0) continue;
                     if (token.IsCancellationRequested) return;
@@ -83,6 +85,7 @@ namespace Panels.CardCustom
             btn.gameObject.GetComponent<Toggle>()?.onValueChanged.AddListener((val) =>
             {
                 if(!val) return;
+                editor.SelectCharacter(data.characterId);
                 variantListView.RefreshList(data).Forget();
             });
         }

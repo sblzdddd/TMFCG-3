@@ -4,6 +4,7 @@ using TmiCard.CardCharacter;
 using TmiCard.CardPlayer;
 using TmiCard.CardZone.Base;
 using TmiCard.POCO;
+using R3;
 
 namespace TmiCard.Card
 {

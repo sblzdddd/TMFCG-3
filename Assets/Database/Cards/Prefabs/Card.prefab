@@ -952,6 +952,7 @@ GameObject:
   - component: {fileID: 6972097774804455297}
   - component: {fileID: 1258738707620256690}
   - component: {fileID: 8260432885701082477}
+  - component: {fileID: 5483140832652088074}
   m_Layer: 6
   m_Name: Card
   m_TagString: Card
@@ -1059,7 +1060,7 @@ MonoBehaviour:
   cardTopRenderer: {fileID: 7186072767959038016}
   cardBottomRenderer: {fileID: 5512418633996738012}
   cardExtraContentRenderer: {fileID: 2253649672257422216}
-  cardCharacterManager: {fileID: 3680187992829626577}
+  cardCardCharacterManager: {fileID: 3680187992829626577}
   cardTitleManager: {fileID: 4531727199156304395}
   cardOutlineManager: {fileID: 3878717610535270036}
 --- !u!64 &8260432885701082477
@@ -1084,6 +1085,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5483140832652088074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428202776066498819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7bd1181b10a40f588f7206cd24c464b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DI.CardLifetimeScope
+  parentReference:
+    TypeName: 
+  autoRun: 1
+  autoInjectGameObjects: []
 --- !u!1 &7791182746683950927
 GameObject:
   m_ObjectHideFlags: 0
