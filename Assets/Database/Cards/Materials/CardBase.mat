@@ -24,21 +24,31 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 97a99eb000aabb74f99c45f53ac1517f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHATEST_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BgTex:
+        m_Texture: {fileID: 2800000, guid: 8c0835b196853c24cb8c51803db9415a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomSuitLaserTex:
+        m_Texture: {fileID: 2800000, guid: 00f7840e73be6b840920701d72a30bbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomSuitTex:
+        m_Texture: {fileID: 2800000, guid: c6870f73a3594874e82217a87daa1b68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _CardBackground:
         m_Texture: {fileID: 2800000, guid: 8c0835b196853c24cb8c51803db9415a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,8 +69,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3bcda03c949686947b1640c1e33c4741, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CardMasksTex:
+        m_Texture: {fileID: 2800000, guid: b4fe9acd781ac0d40bd4b0ea26fa5832, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _CardTex:
         m_Texture: {fileID: 2800000, guid: 3bcda03c949686947b1640c1e33c4741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CharacterTex:
+        m_Texture: {fileID: 2800000, guid: e71f23fffea43814bb094e45994a10cb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HoloTexture:
@@ -71,12 +89,28 @@ Material:
         m_Texture: {fileID: 2800000, guid: 72f29cc3c1bb5c34382b47b706d07132, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LaserTex:
+        m_Texture: {fileID: 2800000, guid: 8c9cbc542e3a1304da532ad1d4530fc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _LaserTexture:
         m_Texture: {fileID: 2800000, guid: 8c9cbc542e3a1304da532ad1d4530fc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OuterContentTex:
+        m_Texture: {fileID: 2800000, guid: 6e49e11ff82a1114da51fd8a7bc854e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RectRoundedCornerMask_40dedf79d5b94481b8c583d261f7a1d3_RectTex_3613066113_Texture2D:
         m_Texture: {fileID: 2800000, guid: 3bcda03c949686947b1640c1e33c4741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RectRoundedCornerMask_dcf7b311a0854e0b954ece96c2f51ebd_RectTex_3613066113_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3bcda03c949686947b1640c1e33c4741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0e323ed0cded4e64b81580835aa42257_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8c0835b196853c24cb8c51803db9415a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_4e1b9d6c558d427b968419f6450fea7b_Texture_1_Texture2D:
@@ -87,12 +121,36 @@ Material:
         m_Texture: {fileID: 2800000, guid: b4fe9acd781ac0d40bd4b0ea26fa5832, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_89546aed33474f25a3b861e201024f40_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3bcda03c949686947b1640c1e33c4741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_99c744fb28834d9c89b45ac28bff9eb3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8c9cbc542e3a1304da532ad1d4530fc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ac5326a9123647b0b50cff777cfcbec1_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 8c9cbc542e3a1304da532ad1d4530fc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_c8a76c4a40714b70bbd03cbd5198be17_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 93c80a5f0801b6e4bac89654acde6d89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_Array:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopSuitLaserTex:
+        m_Texture: {fileID: 2800000, guid: a030260c03d96b4488d486d37b116224, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopSuitTex:
+        m_Texture: {fileID: 2800000, guid: 496ff7df3cf61f549973962b57093d69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ValueTex:
+        m_Texture: {fileID: 2800000, guid: a68aa516b01b7e141a2642fc2e30f02c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -117,13 +175,20 @@ Material:
     - _CardBgRotation: 0.7
     - _CardBgSpeed: 0.09
     - _CastShadows: 1
-    - _Cull: 0
+    - _CharacterOutline: 0.006
+    - _Cull: 2
+    - _DissolveFac: 0
+    - _DissolveScale: 12
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Emission: 0
+    - _IsJQK: 1
     - _LaserSpeed: 2
     - _LaserStrength: 1.2
     - _Metallic: 0.5
+    - _Outline: 0.02
+    - _OutlineOpacity: 0
+    - _OutlineRadius: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Radius: 0.03
@@ -137,10 +202,16 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 1
     m_Colors:
+    - _BgSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - _BgTransform: {r: 1, g: 0.91, b: 0.7, a: 0}
     - _CardBgSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _CardBgTiling: {r: 2, g: 2.82, b: 0, a: 0}
+    - _CharacterOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CharacterTransform: {r: 0, g: 0, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 4, g: 2.422552, b: 0, a: 1}
     - _LaserScale: {r: 0.35, g: 0.36, b: 0, a: 0}
+    - _OutlineColor: {r: 12.84447, g: 5.5816283, b: 0, a: 0}
     - _Vector2: {r: 2.14, g: 2.88, b: 0, a: 0}
     - _Vector2_1: {r: 1, g: 0.91, b: 0, a: 0}
   m_BuildTextureStacks: []

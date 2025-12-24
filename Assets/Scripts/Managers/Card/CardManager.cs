@@ -1,61 +1,95 @@
 using System;
 using System.Collections.Generic;
-using TMPro;
+using Cysharp.Threading.Tasks;
+using Managers.Card.Components;
+using Managers.Card.Extensions;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Managers.Card
 {
-    [RequireComponent(typeof(MeshRenderer), typeof(MeshFilter))]
+    [RequireComponent(typeof(MeshRenderer), typeof(CardCharacterManager))]
     public class CardManager: MonoBehaviour
     {
         private MeshRenderer cardBaseRenderer;
-        [SerializeField] private List<MeshRenderer> cardValueIconRenderers = new(2);
-        [SerializeField] private List<TMP_Text> cardValueTexts = new(2);
-        [SerializeField] private MeshRenderer cardTopRenderer;
-        [SerializeField] private MeshRenderer cardBottomRenderer;
-        [SerializeField] private MeshRenderer cardExtraContentRenderer;
-        [SerializeField] private CardCharacterManager cardCardCharacterManager;
-        [SerializeField] private CardTitleManager cardTitleManager;
-        [SerializeField] private CardOutlineManager cardOutlineManager;
+        [FormerlySerializedAs("cardValue")] [SerializeField] [ChildObjectOnly] [NotNull]
+        private CardFaceManager cardFace;
+        private CardCharacterManager cardCharacter;
+        private CardOutlineManager cardOutline;
+        
+        public CardCharacterManager CharacterManager => cardCharacter;
+        private readonly Dictionary<Type, CardExtension> extensions = new();
 
         public bool IsSelected { get; private set; }
 
-        private void Awake()
+        public void Initialize()
         {
             cardBaseRenderer = GetComponent<MeshRenderer>();
+            cardOutline = GetComponent<CardOutlineManager>();
+            cardCharacter = GetComponent<CardCharacterManager>();
             
-            MeshRenderer[] renderers = {
-                cardBaseRenderer,
-                cardTopRenderer,
-                cardBottomRenderer,
-                cardExtraContentRenderer,
-                cardValueIconRenderers[0],
-                cardValueIconRenderers[1]
-            };
-            foreach (var r in renderers)
+            cardFace.Initialize();
+            cardOutline?.Initialize();
+            cardCharacter?.Initialize();
+            cardBaseRenderer.material = new Material(cardBaseRenderer.sharedMaterial);
+                    
+            foreach (var extension in GetComponents<CardExtension>())
             {
-                if (r != null && r.sharedMaterial != null)
-                {
-                    r.material = new Material(r.sharedMaterial);
-                }
+                extension.Initialize(this);
+                extensions[extension.GetType()] = extension;
             }
-        }
-
-        private IDisposable characterSubscription;
-
-        private void OnDestroy()
-        {
-            characterSubscription?.Dispose();
         }
 
         public void SetSelected(bool selected)
         {
-            if (!cardOutlineManager) return;
+            if (!cardOutline) return;
             IsSelected = selected;
-            if (selected)
-                cardOutlineManager.EnableOutline();
-            else
-                cardOutlineManager.DisableOutline();
+            cardOutline.SetOutline(selected);
+        }
+
+        public async UniTask Dispose()
+        {
+            foreach (var extension in GetComponents<CardExtension>())
+            {
+                DisableExtension(extension);
+            }
+            // play destroy animation
+        }
+        
+        public T EnableExtension<T>() where T : CardExtension
+        {
+            if (!extensions.TryGetValue(typeof(T), out var extension))
+            {
+                Debug.LogError($"Variant {typeof(T)} not found on prefab");
+                return null;
+            }
+
+            EnableExtension(extension);
+            return (T)extension;
+        }
+
+        public void DisableExtension<T>() where T : CardExtension
+        {
+            if (!extensions.TryGetValue(typeof(T), out var extension)) 
+            {
+                Debug.LogError($"Variant {typeof(T)} not found on prefab");
+                return;
+            }
+
+            DisableExtension(extension);
+        }
+
+        private static void DisableExtension(CardExtension extension)
+        {
+            if (!extension.enabled) return;
+            extension.OnDeactivate();
+            extension.enabled = false;
+        }
+        private static void EnableExtension(CardExtension extension)
+        {
+            if (extension.enabled) return;
+            extension.OnActivate();
+            extension.enabled = true;
         }
     }
 }

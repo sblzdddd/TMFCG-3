@@ -29,7 +29,7 @@ namespace Utils
             }
             catch (OperationCanceledException)
             {
-                Debug.LogError($"Failed to load image at path '{path}': Operation cancelled.");
+                Debug.LogWarning($"Failed to load image at path '{path}': Operation cancelled.");
             }
             catch (Exception ex)
             {

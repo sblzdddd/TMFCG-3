@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Character:
-        m_Texture: {fileID: 2800000, guid: dce4a70f8df9de54da65fd85547a79de, type: 3}
+        m_Texture: {fileID: 2800000, guid: faebf952bf3520a4bb23ea7e0a55165a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMapping_dba54115207c4d1da8347101b30132c2_Heightmap_1_Texture2D:

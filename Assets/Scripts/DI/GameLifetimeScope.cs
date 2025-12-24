@@ -1,6 +1,6 @@
 using Managers;
 using Managers.Card;
-using Managers.Card.Custom;
+using Managers.Card.Components;
 using Panels;
 using Panels.CardCustom;
 using Panels.Navigator;
@@ -30,8 +30,9 @@ namespace DI
             // Components
             builder.RegisterComponentInHierarchy<CharacterGridView>();
             builder.RegisterComponentInHierarchy<VariantListView>();
+
             builder.RegisterComponentInHierarchy<CustomPreviewCard>();
-            
+            builder.RegisterComponentInHierarchy<CardCharacterManager>();
         }
     }
 }
