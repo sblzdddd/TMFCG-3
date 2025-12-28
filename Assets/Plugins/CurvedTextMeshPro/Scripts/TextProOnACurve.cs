@@ -43,6 +43,11 @@ namespace Plugins.CurvedTextMeshPro.Scripts
         /// </summary>
         private bool m_ForceUpdate;
 
+        public void ForceUpdate()
+        {
+            m_ForceUpdate = true;
+        }
+
         /// <summary>
         /// Awake
         /// </summary>

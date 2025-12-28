@@ -47,7 +47,7 @@ namespace SimpleMystiaUI.Toggles
         public ToggleEvent onValueChanged = new ToggleEvent();
 
         // Whether the toggle is on
-        [Tooltip("Is the toggle currently on or off?")] [SerializeField]
+        [Tooltip("Is the toggle currently on or off?"), SerializeField]
         private bool m_IsOn;
 
         protected MToggle()

@@ -10,7 +10,7 @@ namespace Managers.Card
     public class CardPoolManager : MonoBehaviour, ICardPool
     {
         [Header("Prefab")]
-        [SerializeField] [PrefabObjectOnly]
+        [SerializeField, PrefabObjectOnly]
         private GameObject cardPrefab;
 
         private List<CardManager> cards;
@@ -26,7 +26,7 @@ namespace Managers.Card
                 Debug.LogError($"Unable to find card manager in prefab {cardPrefab.name}!");
                 return null;
             }
-            card.Initialize();
+            card.Start();
             card.gameObject.SetActive(true);
             return card;
         }
@@ -34,7 +34,7 @@ namespace Managers.Card
         public void Dispose(CardManager card)
         {
             // 重置卡牌状态
-            card.Dispose().Forget();
+            card.Dispose();
         }
     }
 }

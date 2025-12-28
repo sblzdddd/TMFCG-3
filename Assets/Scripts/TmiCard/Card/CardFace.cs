@@ -8,7 +8,9 @@ namespace TmiCard.Card
         Clubs = 0,
         Diamonds = 1,
         Hearts = 2,
-        Spade = 3,
+        Spades = 3,
+        JokerBlack = 4,
+        JokerRed = 5
     }
     
     [Serializable]

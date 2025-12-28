@@ -8,11 +8,11 @@ namespace Panels
 {
     public class StartPanel: BasePanel
     {
-        [SerializeField] [ChildObjectOnly] [NotNull] public RectTransform title;
-        [SerializeField] [ChildObjectOnly] [NotNull] public RectTransform startButton;
-        [SerializeField] [ChildObjectOnly] [NotNull] public RectTransform customButton;
-        [SerializeField] [ChildObjectOnly] [NotNull] public RectTransform settingsButton;
-        [SerializeField] [ChildObjectOnly] [NotNull] public RectTransform exitButton;
+        [SerializeField, ChildObjectOnly, NotNull] public RectTransform title;
+        [SerializeField, ChildObjectOnly, NotNull] public RectTransform startButton;
+        [SerializeField, ChildObjectOnly, NotNull] public RectTransform customButton;
+        [SerializeField, ChildObjectOnly, NotNull] public RectTransform settingsButton;
+        [SerializeField, ChildObjectOnly, NotNull] public RectTransform exitButton;
         
         private List<RectTransform> startRects = new();
 

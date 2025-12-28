@@ -41,6 +41,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8c0835b196853c24cb8c51803db9415a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BottomMask:
+        m_Texture: {fileID: 2800000, guid: 75c75ab044b62144285d839dc1ae6df6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BottomSuitLaserTex:
         m_Texture: {fileID: 2800000, guid: 00f7840e73be6b840920701d72a30bbe, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -78,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CharacterTex:
-        m_Texture: {fileID: 2800000, guid: e71f23fffea43814bb094e45994a10cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: c212824baee89ed4d96a01482390d50c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HoloTexture:
@@ -98,7 +102,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OuterContentTex:
-        m_Texture: {fileID: 2800000, guid: 6e49e11ff82a1114da51fd8a7bc854e1, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RectRoundedCornerMask_40dedf79d5b94481b8c583d261f7a1d3_RectTex_3613066113_Texture2D:
@@ -141,12 +145,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TopMask:
+        m_Texture: {fileID: 2800000, guid: 9c773e97dbfa3394d86767d2d6069877, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TopSuitLaserTex:
-        m_Texture: {fileID: 2800000, guid: a030260c03d96b4488d486d37b116224, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopSuitTex:
-        m_Texture: {fileID: 2800000, guid: 496ff7df3cf61f549973962b57093d69, type: 3}
+        m_Texture: {fileID: 2800000, guid: 48d07fdd8821e5349b6251782545f07b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ValueTex:
@@ -172,6 +180,7 @@ Material:
     - _BgSpeed: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 0
+    - _BottomIndex: 1
     - _CardBgRotation: 0.7
     - _CardBgSpeed: 0.09
     - _CastShadows: 1
@@ -182,7 +191,8 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Emission: 0
-    - _IsJQK: 1
+    - _Float: -0.00201
+    - _IsJQK: 0
     - _LaserSpeed: 2
     - _LaserStrength: 1.2
     - _Metallic: 0.5
@@ -203,15 +213,16 @@ Material:
     - _ZWriteControl: 1
     m_Colors:
     - _BgSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
-    - _BgTransform: {r: 1, g: 0.91, b: 0.7, a: 0}
+    - _BgTransform: {r: 4, g: 0.91, b: 0.7, a: 0}
     - _CardBgSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _CardBgTiling: {r: 2, g: 2.82, b: 0, a: 0}
     - _CharacterOutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _CharacterTransform: {r: 0, g: 0, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolveColor: {r: 4, g: 2.422552, b: 0, a: 1}
+    - _DissolveColor: {r: 22.363523, g: 13.5442, b: 0, a: 1}
     - _LaserScale: {r: 0.35, g: 0.36, b: 0, a: 0}
-    - _OutlineColor: {r: 12.84447, g: 5.5816283, b: 0, a: 0}
+    - _OutlineColor: {r: 22.363539, g: 9.718186, b: 0, a: 0}
+    - _SuitIndex: {r: 1, g: 0, b: 0, a: 0}
     - _Vector2: {r: 2.14, g: 2.88, b: 0, a: 0}
     - _Vector2_1: {r: 1, g: 0.91, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -1,4 +1,5 @@
 using TmiCard.POCO;
+using UnityEngine;
 
 namespace TmiCard.CardCharacter
 {
@@ -7,7 +8,8 @@ namespace TmiCard.CardCharacter
         public CharacterData Data { get; }
         public int VariantIndex { get; }
         
-        public CharacterVariant currentVariant => Data.variants[VariantIndex];
+        public string currentVariant => Data.variants[VariantIndex];
+        public Vector3 transform => Data.transform;
 
         public CardCharacter(CharacterData data, int variantIndex = 0)
         {

@@ -3,32 +3,35 @@ using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Managers.Card.Components;
 using Managers.Card.Extensions;
+using Providers;
+using TmiCard.Card;
+using TmiCard.POCO;
 using UnityEngine;
-using UnityEngine.Serialization;
+using VContainer;
 
 namespace Managers.Card
 {
-    [RequireComponent(typeof(MeshRenderer), typeof(CardCharacterManager))]
+    [RequireComponent(typeof(MeshRenderer), typeof(CardCharacterManager), typeof(CardFaceManager))]
     public class CardManager: MonoBehaviour
     {
         private MeshRenderer cardBaseRenderer;
-        [FormerlySerializedAs("cardValue")] [SerializeField] [ChildObjectOnly] [NotNull]
         private CardFaceManager cardFace;
         private CardCharacterManager cardCharacter;
         private CardOutlineManager cardOutline;
+        [Inject] private readonly DeckDataProvider deckDataProvider;
         
         public CardCharacterManager CharacterManager => cardCharacter;
         private readonly Dictionary<Type, CardExtension> extensions = new();
 
         public bool IsSelected { get; private set; }
 
-        public void Initialize()
+        public void Start()
         {
             cardBaseRenderer = GetComponent<MeshRenderer>();
             cardOutline = GetComponent<CardOutlineManager>();
             cardCharacter = GetComponent<CardCharacterManager>();
+            cardFace = GetComponent<CardFaceManager>();
             
-            cardFace.Initialize();
             cardOutline?.Initialize();
             cardCharacter?.Initialize();
             cardBaseRenderer.material = new Material(cardBaseRenderer.sharedMaterial);
@@ -47,7 +50,13 @@ namespace Managers.Card
             cardOutline.SetOutline(selected);
         }
 
-        public async UniTask Dispose()
+        public void SetCard(CardPresentation presentation)
+        {
+            cardFace.SetFace(presentation.Card.value, presentation.Card.suit).Forget();
+            cardCharacter.SetCharacter(presentation.Character, presentation.VariantIndex).Forget();
+        }
+
+        public void Dispose()
         {
             foreach (var extension in GetComponents<CardExtension>())
             {

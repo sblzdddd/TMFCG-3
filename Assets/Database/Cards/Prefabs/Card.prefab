@@ -1,93 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3150467094375713797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4530728520844624979}
-  - component: {fileID: 6112369419253953377}
-  - component: {fileID: 2253649672257422216}
-  m_Layer: 6
-  m_Name: ExtraContent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4530728520844624979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3150467094375713797}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.002000034}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5241903172452047694}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6112369419253953377
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3150467094375713797}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &2253649672257422216
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3150467094375713797}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials: []
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3412088608903041844
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kaenbyou Rin
+  m_text: Fallback
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65e53fc99cb48fc4cb9e2a0073f405f6, type: 2}
   m_sharedMaterial: {fileID: 732773561949201807, guid: 65e53fc99cb48fc4cb9e2a0073f405f6, type: 2}
@@ -341,7 +253,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "4\n <size=3.2><sprite=0>"
+  m_text: '4
+
+    <size=3.2><sprite=0>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0e7fc2a8c049fb4fb46dcc3cd999c47, type: 2}
   m_sharedMaterial: {fileID: -8674141516450388718, guid: a0e7fc2a8c049fb4fb46dcc3cd999c47, type: 2}
@@ -378,9 +292,9 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
-  m_characterSpacing: 22.9
+  m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -82.8
+  m_lineSpacing: -4.6
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -478,6 +392,7 @@ GameObject:
   - component: {fileID: 5775809306082693109}
   - component: {fileID: 3673470997919637556}
   - component: {fileID: 3162512816151767807}
+  - component: {fileID: 3938269072757781548}
   m_Layer: 6
   m_Name: Card
   m_TagString: Card
@@ -501,7 +416,6 @@ Transform:
   - {fileID: 7947655620772652678}
   - {fileID: 8034625822820815280}
   - {fileID: 975620255850273930}
-  - {fileID: 4530728520844624979}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &5261516150316536469
@@ -572,7 +486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a921516a683524fa0233a174f3f4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.CardManager
-  cardFace: {fileID: 0}
 --- !u!114 &5775809306082693109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,7 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170bc7454455496290fbaf3312e32c9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.Components.CardOutlineManager
-  defaultOutlineColor: {r: 12.844469, g: 5.581628, b: 0, a: 1}
+  defaultOutlineColor: {r: 12.844469, g: 5.581628, b: 0, a: 0}
   outlineSize: 0.015
   ease: 5
 --- !u!65 &3673470997919637556
@@ -622,6 +535,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.Components.CardCharacterManager
   characterName: {fileID: 1558527187517803466}
+--- !u!114 &3938269072757781548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428202776066498819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a416a2dfd88d46a582c842c51692c6ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Managers.Card.Components.CardFaceManager
+  cardValueTexts:
+  - {fileID: 5560932704468026711}
+  - {fileID: 6793992411126293535}
 --- !u!1 &8952966205152377542
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +607,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "4\n <size=3.2><sprite=0>"
+  m_text: '4
+
+    <size=3.2><sprite=0>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0e7fc2a8c049fb4fb46dcc3cd999c47, type: 2}
   m_sharedMaterial: {fileID: -8674141516450388718, guid: a0e7fc2a8c049fb4fb46dcc3cd999c47, type: 2}
@@ -716,9 +646,9 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
-  m_characterSpacing: 22.9
+  m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -82.8
+  m_lineSpacing: -4.6
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0

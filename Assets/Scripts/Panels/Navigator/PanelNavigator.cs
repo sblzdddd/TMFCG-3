@@ -1,4 +1,5 @@
 using Panels.CardCustom;
+using Panels.CharacterConfig;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer.Unity;
@@ -11,13 +12,15 @@ namespace Panels.Navigator
         private readonly JoinPanel joinPanel;
         private readonly CardCustomPanel customPanel;
         private readonly SettingsPanel settingsPanel;
+        private readonly CharacterConfigPanel characterConfigPanel;
 
-        public PanelNavigator(StartPanel startPanel, JoinPanel joinPanel, CardCustomPanel customPanel, SettingsPanel settingsPanel)
+        public PanelNavigator(StartPanel startPanel, JoinPanel joinPanel, CardCustomPanel customPanel, SettingsPanel settingsPanel, CharacterConfigPanel characterConfigPanel)
         {
             this.startPanel = startPanel;
             this.joinPanel = joinPanel;
             this.customPanel = customPanel;
             this.settingsPanel = settingsPanel;
+            this.characterConfigPanel = characterConfigPanel;
         }
 
         void IStartable.Start()
@@ -50,6 +53,15 @@ namespace Panels.Navigator
             settingsPanel.backButton.onClick.AddListener(() =>
             {
                 settingsPanel.Hide(); startPanel.Show(3);
+            });
+
+            characterConfigPanel.cancelButton.onClick.AddListener(() =>
+            {
+                customPanel.SetInteractability(true);
+            });
+            characterConfigPanel.confirmButton.onClick.AddListener(() =>
+            {
+                customPanel.SetInteractability(true);
             });
         }
     }    

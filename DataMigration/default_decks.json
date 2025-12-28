@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Official Deck B",
+    "author": "SulphurDXD & sblzdddd & Prontological",
+    "version": "1.0.0",
+    "apiVersion": "1.0.0",
+    "description": "官方B卡组的默认玩法",
+    "cards": [
+      {
+        "id": "01",
+        "suit": 0,
+        "value": 1,
+        "characterId": "th-105",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "02",
+        "suit": 0,
+        "value": 2,
+        "characterId": "th-84",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "03",
+        "suit": 0,
+        "value": 3,
+        "characterId": "th-101",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "04",
+        "suit": 0,
+        "value": 4,
+        "characterId": "th-110",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "05",
+        "suit": 0,
+        "value": 5,
+        "characterId": "th-119",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "06",
+        "suit": 0,
+        "value": 6,
+        "characterId": "th-76",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "07",
+        "suit": 0,
+        "value": 7,
+        "characterId": "th-128",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "08",
+        "suit": 0,
+        "value": 8,
+        "characterId": "th-166",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "09",
+        "suit": 0,
+        "value": 9,
+        "characterId": "th-54",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "010",
+        "suit": 0,
+        "value": 10,
+        "characterId": "th-120",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "011",
+        "suit": 0,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariantIndex": 40
+      },
+      {
+        "id": "012",
+        "suit": 0,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariantIndex": 37
+      },
+      {
+        "id": "013",
+        "suit": 0,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariantIndex": 36
+      },
+      {
+        "id": "11",
+        "suit": 1,
+        "value": 1,
+        "characterId": "th-173",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "12",
+        "suit": 1,
+        "value": 2,
+        "characterId": "th-108",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "13",
+        "suit": 1,
+        "value": 3,
+        "characterId": "th-126",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "14",
+        "suit": 1,
+        "value": 4,
+        "characterId": "th-31",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "15",
+        "suit": 1,
+        "value": 5,
+        "characterId": "th-40",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "16",
+        "suit": 1,
+        "value": 6,
+        "characterId": "th-77",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "17",
+        "suit": 1,
+        "value": 7,
+        "characterId": "th-75",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "18",
+        "suit": 1,
+        "value": 8,
+        "characterId": "th-171",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "19",
+        "suit": 1,
+        "value": 9,
+        "characterId": "th-82",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "110",
+        "suit": 1,
+        "value": 10,
+        "characterId": "th-70",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "111",
+        "suit": 1,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariantIndex": 43
+      },
+      {
+        "id": "112",
+        "suit": 1,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariantIndex": 23
+      },
+      {
+        "id": "113",
+        "suit": 1,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariantIndex": 24
+      },
+      {
+        "id": "21",
+        "suit": 2,
+        "value": 1,
+        "characterId": "th-45",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "22",
+        "suit": 2,
+        "value": 2,
+        "characterId": "th-94",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "23",
+        "suit": 2,
+        "value": 3,
+        "characterId": "th-30",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "24",
+        "suit": 2,
+        "value": 4,
+        "characterId": "th-86",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "25",
+        "suit": 2,
+        "value": 5,
+        "characterId": "th-93",
+        "characterVariantIndex": 8
+      },
+      {
+        "id": "26",
+        "suit": 2,
+        "value": 6,
+        "characterId": "th-114",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "27",
+        "suit": 2,
+        "value": 7,
+        "characterId": "th-49",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "28",
+        "suit": 2,
+        "value": 8,
+        "characterId": "th-60",
+        "characterVariantIndex": 10
+      },
+      {
+        "id": "29",
+        "suit": 2,
+        "value": 9,
+        "characterId": "th-0",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "210",
+        "suit": 2,
+        "value": 10,
+        "characterId": "th-44",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "211",
+        "suit": 2,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariantIndex": 39
+      },
+      {
+        "id": "212",
+        "suit": 2,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariantIndex": 31
+      },
+      {
+        "id": "213",
+        "suit": 2,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariantIndex": 33
+      },
+      {
+        "id": "31",
+        "suit": 3,
+        "value": 1,
+        "characterId": "th-140",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "32",
+        "suit": 3,
+        "value": 2,
+        "characterId": "th-160",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "33",
+        "suit": 3,
+        "value": 3,
+        "characterId": "th-71",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "34",
+        "suit": 3,
+        "value": 4,
+        "characterId": "th-104",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "35",
+        "suit": 3,
+        "value": 5,
+        "characterId": "th-98",
+        "characterVariantIndex": 4
+      },
+      {
+        "id": "36",
+        "suit": 3,
+        "value": 6,
+        "characterId": "th-90",
+        "characterVariantIndex": 2
+      },
+      {
+        "id": "37",
+        "suit": 3,
+        "value": 7,
+        "characterId": "th-36",
+        "characterVariantIndex": 2
+      },
+      {
+        "id": "38",
+        "suit": 3,
+        "value": 8,
+        "characterId": "th-68",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "39",
+        "suit": 3,
+        "value": 9,
+        "characterId": "th-1",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "310",
+        "suit": 3,
+        "value": 10,
+        "characterId": "th-72",
+        "characterVariantIndex": 0
+      },
+      {
+        "id": "311",
+        "suit": 3,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariantIndex": 38
+      },
+      {
+        "id": "312",
+        "suit": 3,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariantIndex": 25
+      },
+      {
+        "id": "313",
+        "suit": 3,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariantIndex": 22
+      }
+    ]
+  }
+]

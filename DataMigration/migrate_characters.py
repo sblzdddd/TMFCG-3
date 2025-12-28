@@ -24,7 +24,7 @@ def _get_text(elem) -> str:
 def parse_character_item(item, index) -> Dict[str, str]:
 	# Name shown in the link box (usually Chinese display name)
 	name_el = item.xpath(".//div[contains(@class,'chara-iconbox')]//div[contains(@class,'chara-linkbox')]/a")
-	name = _get_text(name_el[0]) if name_el else ""
+	name = (_get_text(name_el[0]) if name_el else "").replace("爱丽丝·玛格特洛依德", "爱丽丝·玛格特罗依德").replace("&云山", "")
 
 	if name in names:
 		return None
@@ -64,11 +64,9 @@ def parse_character_item(item, index) -> Dict[str, str]:
 	}
 
 	if oldCharacter and oldCharacter["image_prefix"] and oldCharacter["images"]:
+		data["transform"] = {"x": 0.0, "y": 0.0, "z": 1.0}
 		for img in oldCharacter["images"]:
-			data["variants"].append({
-				"image": oldCharacter["image_prefix"] + " " + img,
-				"transform": {"x": 0.0, "y": 0.0, "z": 1.0}
-			})
+			data["variants"].append(oldCharacter["image_prefix"] + " " + img)
 
 	return data
 
@@ -91,7 +89,8 @@ def parse_characters_from_html(html_path: Path) -> List[Dict[str, str]]:
 	fallback_character["enName"] = fallback_character.get("en_name", "").split("，")
 	fallback_character["nickname"] = [fallback_character.get("nickname", "")]
 	fallback_character["jpName"] = fallback_character.get("jp_name", "")
-	fallback_character["variants"] = [{"image": fallback_character.get("image_prefix", ""), "transform": {"x": 0.0, "y": 0.0, "z": 1.0}}]
+	fallback_character["variants"] = [fallback_character.get("image_prefix", "")]
+	fallback_character["transform"] = {"x": 0.0, "y": 0.0, "z": 1.0}
 	del fallback_character["en_name"]
 	del fallback_character["jp_name"]
 	del fallback_character["image_prefix"]

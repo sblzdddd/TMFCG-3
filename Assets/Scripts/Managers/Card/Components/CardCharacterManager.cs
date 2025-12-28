@@ -1,12 +1,12 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using Repositories;
+using Plugins.CurvedTextMeshPro.Scripts;
 using TmiCard.CardCharacter;
+using TmiCard.POCO;
 using TMPro;
 using UnityEngine;
 using Utils;
-using VContainer;
 
 namespace Managers.Card.Components
 {
@@ -16,44 +16,43 @@ namespace Managers.Card.Components
         private MeshRenderer meshRenderer;
         private CancellationTokenSource cts;
         private CardCharacter currentCharacter;
+        private TextProOnACircle circularTextPro;
         private string currentImage;
-        [SerializeField] [ChildObjectOnly] [NotNull] private TMP_Text characterName;
-        [Inject] private CharacterRepository repository;
+        [SerializeField, ChildObjectOnly, NotNull] private TMP_Text characterName;
         
-        private static readonly int CharacterTex = Shader.PropertyToID("_Character");
-        private static readonly int CharacterX = Shader.PropertyToID("_CharacterX");
-        private static readonly int CharacterY = Shader.PropertyToID("_CharacterY");
-        private static readonly int CharacterScale = Shader.PropertyToID("_CharacterScale");
+        private static readonly int CharacterTex = Shader.PropertyToID("_CharacterTex");
+        private static readonly int CharacterTransform = Shader.PropertyToID("_CharacterTransform");
 
         public void Initialize()
         {
             meshRenderer = GetComponent<MeshRenderer>();
+            circularTextPro = characterName.gameObject.GetComponent<TextProOnACircle>();
             meshRenderer.material = new Material(meshRenderer.sharedMaterial);
         }
 
-        public async UniTask SetCharacter((string characterId, int variantIndex) setConfig)
+        public async UniTask SetCharacter(CharacterData character, int variantIndex)
         {
-            var characterData = repository.Get(setConfig.characterId);
-            if (characterData == null) return;
-            currentCharacter = new CardCharacter(characterData, setConfig.variantIndex);
+            currentCharacter = new CardCharacter(character, variantIndex);
             var loadedSprite = await LoadCharacterImageDedup();
             if (!loadedSprite) return;
-            characterName.text = characterData.enName[0];
+            characterName.text = character.enName[0];
+            circularTextPro?.ForceUpdate();
             meshRenderer.material.SetTexture(CharacterTex, loadedSprite.texture);
-            UpdateCharacterTransform(currentCharacter.currentVariant.transform);
+            UpdateCharacterTransform(currentCharacter.transform);
         }
 
         private async UniTask<Sprite> LoadCharacterImageDedup()
         {
-            if(currentImage == currentCharacter.currentVariant.image) return null;
-            currentImage = currentCharacter.currentVariant.image;
+            if(currentImage == currentCharacter.currentVariant) return null;
+            currentImage = currentCharacter.currentVariant;
             cts?.Cancel();
             cts = new CancellationTokenSource();
             try
             {
-                var loadedSprite = await AssetLoader.LoadCharacterAsync(currentImage, cts.Token);
-                return loadedSprite;
+                var handle = await AssetLoader.LoadAssetAsync<Sprite>($"Characters/{currentImage}.png", cts.Token);
+                return handle.Result;
             }
+            catch (OperationCanceledException) { }
             catch (Exception e)
             {
                 Debug.LogWarning($"Failed to load character image: {e.Message}");
@@ -64,9 +63,7 @@ namespace Managers.Card.Components
 
         public void UpdateCharacterTransform(Vector3 characterTransform)
         {
-            meshRenderer.material.SetFloat(CharacterX, characterTransform.x);
-            meshRenderer.material.SetFloat(CharacterY, characterTransform.y);
-            meshRenderer.material.SetFloat(CharacterScale, characterTransform.z);
+            meshRenderer.material.SetVector(CharacterTransform, characterTransform);
         }
     }
 }

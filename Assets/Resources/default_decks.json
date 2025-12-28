@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Official Deck B",
+    "author": "SulphurDXD & sblzdddd & Prontological",
+    "version": "1.0.0",
+    "apiVersion": "1.0.0",
+    "description": "官方B卡组的默认玩法",
+    "cards": [
+      {
+        "id": "01",
+        "suit": 0,
+        "value": 1,
+        "characterId": "th-105",
+        "characterVariant": "神子 微笑"
+      },
+      {
+        "id": "02",
+        "suit": 0,
+        "value": 2,
+        "characterId": "th-84",
+        "characterVariant": "琪斯美 微笑"
+      },
+      {
+        "id": "03",
+        "suit": 0,
+        "value": 3,
+        "characterId": "th-101",
+        "characterVariant": "芳香 无表情"
+      },
+      {
+        "id": "04",
+        "suit": 0,
+        "value": 4,
+        "characterId": "th-110",
+        "characterVariant": "影狼 微笑"
+      },
+      {
+        "id": "05",
+        "suit": 0,
+        "value": 5,
+        "characterId": "th-119",
+        "characterVariant": "哆来咪 微笑"
+      },
+      {
+        "id": "06",
+        "suit": 0,
+        "value": 6,
+        "characterId": "th-76",
+        "characterVariant": "荷取 微笑"
+      },
+      {
+        "id": "07",
+        "suit": 0,
+        "value": 7,
+        "characterId": "th-128",
+        "characterVariant": "阿吽 张嘴"
+      },
+      {
+        "id": "08",
+        "suit": 0,
+        "value": 8,
+        "characterId": "th-166",
+        "characterVariant": "丰姬 微笑"
+      },
+      {
+        "id": "09",
+        "suit": 0,
+        "value": 9,
+        "characterId": "th-54",
+        "characterVariant": "妖梦 微笑"
+      },
+      {
+        "id": "010",
+        "suit": 0,
+        "value": 10,
+        "characterId": "th-120",
+        "characterVariant": "探女 无表情"
+      },
+      {
+        "id": "011",
+        "suit": 0,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 睡衣"
+      },
+      {
+        "id": "012",
+        "suit": 0,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 海盗"
+      },
+      {
+        "id": "013",
+        "suit": 0,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 水手服·冬"
+      },
+      {
+        "id": "11",
+        "suit": 1,
+        "value": 1,
+        "characterId": "th-173",
+        "characterVariant": "瑞灵 无表情"
+      },
+      {
+        "id": "12",
+        "suit": 1,
+        "value": 2,
+        "characterId": "th-108",
+        "characterVariant": "若鹭姬 微笑"
+      },
+      {
+        "id": "13",
+        "suit": 1,
+        "value": 3,
+        "characterId": "th-126",
+        "characterVariant": "拉尔瓦 微笑"
+      },
+      {
+        "id": "14",
+        "suit": 1,
+        "value": 4,
+        "characterId": "th-31",
+        "characterVariant": "露易兹 微笑"
+      },
+      {
+        "id": "15",
+        "suit": 1,
+        "value": 5,
+        "characterId": "th-40",
+        "characterVariant": "美铃 微笑"
+      },
+      {
+        "id": "16",
+        "suit": 1,
+        "value": 6,
+        "characterId": "th-77",
+        "characterVariant": "犬走椛 微笑"
+      },
+      {
+        "id": "17",
+        "suit": 1,
+        "value": 7,
+        "characterId": "th-75",
+        "characterVariant": "键山雏 微笑"
+      },
+      {
+        "id": "18",
+        "suit": 1,
+        "value": 8,
+        "characterId": "th-171",
+        "characterVariant": "华扇 微笑"
+      },
+      {
+        "id": "19",
+        "suit": 1,
+        "value": 9,
+        "characterId": "th-82",
+        "characterVariant": "天子 微笑"
+      },
+      {
+        "id": "110",
+        "suit": 1,
+        "value": 10,
+        "characterId": "th-70",
+        "characterVariant": "幽香 微笑"
+      },
+      {
+        "id": "111",
+        "suit": 1,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 访问服饰"
+      },
+      {
+        "id": "112",
+        "suit": 1,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 乐队"
+      },
+      {
+        "id": "113",
+        "suit": 1,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 仙女"
+      },
+      {
+        "id": "21",
+        "suit": 2,
+        "value": 1,
+        "characterId": "th-45",
+        "characterVariant": "芙兰 微笑"
+      },
+      {
+        "id": "22",
+        "suit": 2,
+        "value": 2,
+        "characterId": "th-94",
+        "characterVariant": "云居一轮 微笑"
+      },
+      {
+        "id": "23",
+        "suit": 2,
+        "value": 3,
+        "characterId": "th-30",
+        "characterVariant": "萨拉 微笑"
+      },
+      {
+        "id": "24",
+        "suit": 2,
+        "value": 4,
+        "characterId": "th-86",
+        "characterVariant": "帕露西 微笑"
+      },
+      {
+        "id": "25",
+        "suit": 2,
+        "value": 5,
+        "characterId": "th-93",
+        "characterVariant": "小伞 微笑吐舌"
+      },
+      {
+        "id": "26",
+        "suit": 2,
+        "value": 6,
+        "characterId": "th-114",
+        "characterVariant": "针妙丸 微笑"
+      },
+      {
+        "id": "27",
+        "suit": 2,
+        "value": 7,
+        "characterId": "th-49",
+        "characterVariant": "爱丽丝 微笑"
+      },
+      {
+        "id": "28",
+        "suit": 2,
+        "value": 8,
+        "characterId": "th-60",
+        "characterVariant": "西瓜 高兴"
+      },
+      {
+        "id": "29",
+        "suit": 2,
+        "value": 9,
+        "characterId": "th-0",
+        "characterVariant": "灵梦 微笑"
+      },
+      {
+        "id": "210",
+        "suit": 2,
+        "value": 10,
+        "characterId": "th-44",
+        "characterVariant": "蕾米 无表情"
+      },
+      {
+        "id": "211",
+        "suit": 2,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 生日礼服"
+      },
+      {
+        "id": "212",
+        "suit": 2,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 承太郎装"
+      },
+      {
+        "id": "213",
+        "suit": 2,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 新年服装"
+      },
+      {
+        "id": "31",
+        "suit": 3,
+        "value": 1,
+        "characterId": "th-140",
+        "characterVariant": "尤魔 微笑"
+      },
+      {
+        "id": "32",
+        "suit": 3,
+        "value": 2,
+        "characterId": "th-160",
+        "characterVariant": "乡长 微笑"
+      },
+      {
+        "id": "33",
+        "suit": 3,
+        "value": 3,
+        "characterId": "th-71",
+        "characterVariant": "小町 微笑"
+      },
+      {
+        "id": "34",
+        "suit": 3,
+        "value": 4,
+        "characterId": "th-104",
+        "characterVariant": "布都 微笑"
+      },
+      {
+        "id": "35",
+        "suit": 3,
+        "value": 5,
+        "characterId": "th-98",
+        "characterVariant": "封兽鵺 无表情"
+      },
+      {
+        "id": "36",
+        "suit": 3,
+        "value": 6,
+        "characterId": "th-90",
+        "characterVariant": "阿空 无表情"
+      },
+      {
+        "id": "37",
+        "suit": 3,
+        "value": 7,
+        "characterId": "th-36",
+        "characterVariant": "神绮 无表情"
+      },
+      {
+        "id": "38",
+        "suit": 3,
+        "value": 8,
+        "characterId": "th-68",
+        "characterVariant": "妹红 无表情"
+      },
+      {
+        "id": "39",
+        "suit": 3,
+        "value": 9,
+        "characterId": "th-1",
+        "characterVariant": "魔理沙 无表情"
+      },
+      {
+        "id": "310",
+        "suit": 3,
+        "value": 10,
+        "characterId": "th-72",
+        "characterVariant": "四季 微笑"
+      },
+      {
+        "id": "311",
+        "suit": 3,
+        "value": 11,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 魔女"
+      },
+      {
+        "id": "312",
+        "suit": 3,
+        "value": 12,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 仪仗队"
+      },
+      {
+        "id": "313",
+        "suit": 3,
+        "value": 13,
+        "characterId": "th-62",
+        "characterVariant": "米斯蒂娅 万圣节服装"
+      }
+    ]
+  }
+]

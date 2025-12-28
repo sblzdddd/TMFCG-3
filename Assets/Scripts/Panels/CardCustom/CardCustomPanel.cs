@@ -1,14 +1,13 @@
-using Cysharp.Threading.Tasks;
-using Interfaces.Card;
+using Editors;
 using Managers;
 using Managers.Card;
-using Managers.Card.Extensions;
 using Panels.Base;
+using Panels.CharacterConfig;
+using Providers;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 using R3;
-using SimpleMystiaUI.Sliders;
 
 namespace Panels.CardCustom
 {
@@ -18,16 +17,17 @@ namespace Panels.CardCustom
         [Header("UI")]
         [SerializeField, ChildObjectOnly, NotNull]
         public Button backButton;
+        [SerializeField, ChildObjectOnly]
+        public Button saveButton;
+
         [SerializeField, ChildObjectOnly, NotNull]
-        private MSlider characterSize;
-        [SerializeField, ChildObjectOnly, NotNull]
-        private MSlider characterX;
-        [SerializeField, ChildObjectOnly, NotNull]
-        private MSlider characterY;
+        private Button selectCharacterButton;
         
-        [Inject] private readonly CharacterGridView characterGridView;
-        [Inject] private readonly CharacterEditor characterEditor;
+        [Inject] private readonly DeckDataEditor deckDataEditor;
+        [Inject] private readonly DeckDataProvider deckDataProvider;
+        [Inject] private readonly CharacterConfigPanel characterConfigPanel;
         [Inject] private readonly CustomPreviewCard previewCard;
+        [Inject] private EditorContext editorContext;
         
         private readonly CompositeDisposable disposables = new();
 
@@ -35,17 +35,15 @@ namespace Panels.CardCustom
         {
             FadePosition = 0;
             
-            // 绑定滑条到EditTransform事件
-            characterEditor.EditTransform
-                .Subscribe(UpdateSliders)
-                .AddTo(disposables);
-
-            // 绑定滑条到Editor更新到滑条变化事件
-            characterX.onValueChanged.AddListener(OnSliderChanged);
-            characterY.onValueChanged.AddListener(OnSliderChanged);
-            characterSize.onValueChanged.AddListener(OnSliderChanged);
-            
-            backButton.onClick.AddListener(characterEditor.SaveConfig);
+            backButton.onClick.AddListener(deckDataEditor.SaveConfig);
+            saveButton?.onClick.AddListener(deckDataEditor.SaveConfig);
+            selectCharacterButton.onClick.AddListener(() =>
+            {
+                editorContext.CurrentContext.Value = PreviewContext.CharacterEditor;
+                deckDataProvider.TryGetCard(deckDataEditor.EditingCardId.Value, out var cardData);
+                characterConfigPanel.Show(cardData.characterId, cardData.characterVariantIndex);
+                SetInteractability(false);
+            });
         }
 
         private void OnDestroy()
@@ -53,25 +51,8 @@ namespace Panels.CardCustom
             disposables.Dispose();
         }
 
-        private void UpdateSliders(Vector3 t)
-        {
-            characterX.SetValueWithoutNotify(t.x);
-            characterY.SetValueWithoutNotify(t.y);
-            characterSize.SetValueWithoutNotify(t.z);
-        }
-        
-        private void OnSliderChanged(float _)
-        {
-            characterEditor.UpdateTransform(new Vector3(
-                characterX.value, 
-                characterY.value, 
-                characterSize.value
-            ));
-        }
-
         public override void Show(int direction = -1)
         {
-            characterGridView.RefreshGrid().Forget();
             previewCard.Show();
             base.Show(direction);
         }
