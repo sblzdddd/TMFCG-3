@@ -222,7 +222,7 @@ Material:
     - _DissolveColor: {r: 22.363523, g: 13.5442, b: 0, a: 1}
     - _LaserScale: {r: 0.35, g: 0.36, b: 0, a: 0}
     - _OutlineColor: {r: 22.363539, g: 9.718186, b: 0, a: 0}
-    - _SuitIndex: {r: 1, g: 0, b: 0, a: 0}
+    - _SuitIndex: {r: 2, g: 0, b: 0, a: 0}
     - _Vector2: {r: 2.14, g: 2.88, b: 0, a: 0}
     - _Vector2_1: {r: 1, g: 0.91, b: 0, a: 0}
   m_BuildTextureStacks: []
