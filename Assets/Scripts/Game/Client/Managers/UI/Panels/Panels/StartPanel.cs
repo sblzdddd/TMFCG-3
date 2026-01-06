@@ -4,7 +4,7 @@ using Game.Client.Managers.UI.Panels.Base;
 using LitMotion;
 using UnityEngine;
 
-namespace Game.Client.Managers.UI.Panels
+namespace Game.Client.Managers.UI.Panels.Panels
 {
     public class StartPanel: BasePanel
     {

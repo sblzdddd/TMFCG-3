@@ -2,7 +2,7 @@ using Game.Client.Managers.UI.Panels.Base;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game.Client.Managers.UI.Panels
+namespace Game.Client.Managers.UI.Panels.Panels
 {
     public class SettingsPanel: BasePanel
     {

@@ -116,7 +116,7 @@ MonoBehaviour:
     tooltip: Shaders folder
     iconType: 0
     largeIcon: {fileID: 2800000, guid: cdbc8affd78cdde45b6bfa03c711ee98, type: 3}
-    smallIcon: {fileID: 2800000, guid: 0ef10b50fb674614b90dc6d798d3503c, type: 3}
+    smallIcon: {fileID: 2800000, guid: cdbc8affd78cdde45b6bfa03c711ee98, type: 3}
     iconName: 
   - dataType: 1
     name: Presets
@@ -164,7 +164,15 @@ MonoBehaviour:
     tooltip: Locales folder
     iconType: 0
     largeIcon: {fileID: 2800000, guid: e3c4ce93372247b4bb36ff97ae99888a, type: 3}
-    smallIcon: {fileID: 2800000, guid: c13de146e01880e458cc12266985733d, type: 3}
+    smallIcon: {fileID: 2800000, guid: e3c4ce93372247b4bb36ff97ae99888a, type: 3}
+    iconName: 
+  - dataType: 1
+    name: Database
+    path: Sprites
+    tooltip: Database folder
+    iconType: 0
+    largeIcon: {fileID: 2800000, guid: 3b4d9e7762cd57f4582df9668844a38f, type: 3}
+    smallIcon: {fileID: 2800000, guid: 3b4d9e7762cd57f4582df9668844a38f, type: 3}
     iconName: 
   useToolboxSceneView: 1
   selectorKey: 9

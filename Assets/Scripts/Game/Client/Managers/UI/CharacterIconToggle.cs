@@ -5,7 +5,7 @@ using Game.Client.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game.Client.Managers.UI.Panels.CharacterConfig
+namespace Game.Client.Managers.UI
 {
     [RequireComponent(typeof(Toggle))]
     public class CharacterIconToggle: MonoBehaviour

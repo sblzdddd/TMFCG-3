@@ -1,15 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using Game.Client.Data.Editors;
 using Game.Client.Data.Providers;
 using Game.Shared.TmiCards.POCO;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Game.Client.Managers.UI.Panels.CharacterConfig
+namespace Game.Client.Managers.UI
 {
     [RequireComponent(typeof(GridLayoutGroup), typeof(ToggleGroup), typeof(CanvasGroup))]
     public class CharacterGridView: MonoBehaviour
@@ -17,9 +18,9 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
         [SerializeField, PrefabObjectOnly, NotNull] public GameObject characterButtonPrefab;
         [SerializeField, NotNull] public Button refreshGridButton;
         [SerializeField, NotNull] public ScrollRect scrollRect;
-        [SerializeField, NotNull] public VariantListView variantListView;
+        [SerializeField, NotNull] public CharacterVariantsView characterVariantsView;
         [Inject] private readonly CharacterProvider provider;
-        [Inject] private readonly CharacterEditor editor;
+        public UnityEvent<(string, int)> onCharacterChanged;
         private readonly List<GameObject> characterButtons = new();
         private CancellationTokenSource refreshCts;
         private int refreshVersion;
@@ -52,9 +53,8 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
                 characterButtons.ForEach(Destroy);
                 characterButtons.Clear();
                 LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect.content);
-                foreach (var characterData in provider.Characters)
+                foreach (var characterData in provider.ValidCharacters)
                 {
-                    if (characterData.variants.Count <= 0) continue;
                     // early stop on cancel
                     token.ThrowIfCancellationRequested();
                     // yield 1 frame on every 5 frames to avoid freezing
@@ -97,21 +97,19 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
             toggle.onValueChanged.AddListener(val =>
             {
                 if(!val) return;
-                editor.SelectCharacter(data.characterId);
-                variantListView.RefreshList(data).Forget();
+                onCharacterChanged.Invoke((data.characterId, 0));
+                characterVariantsView.RefreshList(data).Forget();
             });
         }
 
         public async UniTask Select(string characterId, int characterVariantIndex)
         {
             CharacterData targetData = null;
-            int buttonIndex = 0;
-            bool found = false;
+            var buttonIndex = 0;
+            var found = false;
 
-            foreach (var characterData in provider.Characters)
+            foreach (var characterData in provider.Characters.Where(characterData => characterData.variants.Count > 0))
             {
-                if (characterData.variants.Count <= 0) continue;
-
                 if (characterData.characterId == characterId)
                 {
                     targetData = characterData;
@@ -128,8 +126,8 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
                 if (toggle != null)
                 {
                     toggle.SetIsOnWithoutNotify(true);
-                    editor.SelectCharacter(targetData.characterId);
-                    await variantListView.RefreshList(targetData, characterVariantIndex);
+                    onCharacterChanged.Invoke((targetData.characterId, 0));
+                    await characterVariantsView.RefreshList(targetData, characterVariantIndex);
                 }
             }
         }

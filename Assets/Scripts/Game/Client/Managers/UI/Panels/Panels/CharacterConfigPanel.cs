@@ -4,10 +4,11 @@ using Game.Client.Managers.UI.Panels.Base;
 using Game.Client.SimpleMystiaUI.Sliders;
 using R3;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Game.Client.Managers.UI.Panels.CharacterConfig
+namespace Game.Client.Managers.UI.Panels.Panels
 {
     [RequireComponent(typeof(RectTransform))]
     public class CharacterConfigPanel: BasePanel
@@ -27,7 +28,10 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
         private string oldCharacterId = "Fallback";
         private int oldCharacterVariantIndex;
         
-        [Inject] private readonly CharacterGridView characterGridView;
+        [SerializeField, ChildObjectOnly, NotNull]
+        private CharacterGridView characterGridView;
+        [SerializeField, ChildObjectOnly, NotNull]
+        private CharacterVariantsView characterVariantView;
         [Inject] private readonly CharacterEditor characterEditor;
         [Inject] private readonly DeckDataEditor deckDataEditor;
         [Inject] private EditorContext editorContext;
@@ -49,6 +53,11 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
 
             confirmButton.onClick.AddListener(Apply);
             cancelButton.onClick.AddListener(Revert);
+            
+            characterVariantView.onCharacterChanged.AddListener(data =>
+            {
+                characterEditor.SelectCharacter(data.Item1, data.Item2);
+            });
         }
 
         private void OnDestroy()

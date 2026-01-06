@@ -96,10 +96,6 @@ namespace jp.lilxyzw.editortoolbox
         [DocsGetStrings(typeof(ProjectExtension), "GetNameAndTooltips")]
         public string[] projectComponents = new string[]{};
 
-        [L10nHeader("Toolbar Extension", "You can display an assembly lock button or an extension inspector tab on the Toolbar. You can also add your own extension by implementing `IToolbarExtensionComponent`. Please refer to the script under `Editor/ToolbarExtension/Components` for how to write it.")]
-        [DocsGetStrings(typeof(ToolbarExtension), "GetNameAndTooltips")]
-        public string[] toolbarComponents = new string[]{};
-
         [L10nHeader("Menu Directory Replaces", "You can customize the menu bar by changing or deleting the menu hierarchy. You can also edit multiple menus at once by specifying `Tools/*`.")]
         [L10nHelpBox("Some menu items may not be compatible with replacement.", MessageType.Warning)]
         [Tooltip("When this check box is selected, changing and deleting the menu hierarchy is enabled.")] [ToggleLeft] public bool enableMenuDirectoryReplaces = false;
@@ -301,12 +297,6 @@ namespace jp.lilxyzw.editortoolbox
                     EditorGUILayout.Space();
                     L10n.LabelField("Project Extension", EditorStyles.boldLabel);
                     StringListAsToggle(ProjectExtension.names);
-                }
-                else if (iterator.name == "toolbarComponents")
-                {
-                    EditorGUILayout.Space();
-                    L10n.LabelField("Toolbar Extension", EditorStyles.boldLabel);
-                    StringListAsToggle(ToolbarExtension.names);
                 }
                 else if (iterator.name == "language")
                 {

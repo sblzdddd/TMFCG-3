@@ -2,20 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using Game.Client.Data.Editors;
 using Game.Shared.TmiCards.POCO;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
-using VContainer;
 
-namespace Game.Client.Managers.UI.Panels.CharacterConfig
+namespace Game.Client.Managers.UI
 {
     [RequireComponent(typeof(GridLayoutGroup), typeof(ToggleGroup))]
-    public class VariantListView: MonoBehaviour
+    public class CharacterVariantsView: MonoBehaviour
     {
         [SerializeField, PrefabObjectOnly, NotNull] public GameObject characterButtonPrefab;
         [SerializeField, NotNull] public ScrollRect scrollRect;
-        [Inject] private readonly CharacterEditor characterEditor;
+        
+        public UnityEvent<(string, int)> onCharacterChanged;
         private readonly List<GameObject> characterButtons = new();
         private CancellationTokenSource refreshCts;
         private int refreshVersion;
@@ -71,7 +71,7 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
                 {
                     targetToggle.isOn = true;
                 }
-                // Fallback to 0 if target not found (e.g. index out of bounds)
+                // Fallback to 0 if target not found
                 else if (characterButtons.Count > 0 && !token.IsCancellationRequested)
                 {
                     var t = characterButtons[0].GetComponent<Toggle>();
@@ -102,7 +102,7 @@ namespace Game.Client.Managers.UI.Panels.CharacterConfig
             toggle.onValueChanged.AddListener((val) =>
             {
                 if(!val) return;
-                characterEditor.SelectCharacter(data.characterId, index);
+                onCharacterChanged.Invoke((data.characterId, index));
                 Debug.Log(image);
             });
         }

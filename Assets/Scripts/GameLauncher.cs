@@ -63,4 +63,10 @@ public class GameLauncher : MonoBehaviour
         utpServer?.Update();
         utpClient?.Update();
     }
+
+    private void OnDestroy()
+    {
+        utpServer?.Cleanup();
+        utpClient?.Cleanup();
+    }
 }

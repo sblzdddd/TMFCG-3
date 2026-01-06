@@ -2,13 +2,12 @@ using Game.Client.Data.Editors;
 using Game.Client.Data.Providers;
 using Game.Client.Managers.Card;
 using Game.Client.Managers.UI.Panels.Base;
-using Game.Client.Managers.UI.Panels.CharacterConfig;
 using R3;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Game.Client.Managers.UI.Panels.CardCustom
+namespace Game.Client.Managers.UI.Panels.Panels
 {
     [RequireComponent(typeof(RectTransform))]
     public class CardCustomPanel: BasePanel

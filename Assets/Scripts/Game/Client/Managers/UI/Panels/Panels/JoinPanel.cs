@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Game.Client.Managers.UI.Panels
+namespace Game.Client.Managers.UI.Panels.Panels
 {
     public class JoinPanel: BasePanel
     {

@@ -5,10 +5,9 @@ using Game.Client.Data.Repositories;
 using Game.Client.Managers;
 using Game.Client.Managers.Card;
 using Game.Client.Managers.Card.Components;
+using Game.Client.Managers.UI;
 using Game.Client.Managers.UI.Panels;
-using Game.Client.Managers.UI.Panels.CardCustom;
-using Game.Client.Managers.UI.Panels.CharacterConfig;
-using Game.Client.Managers.UI.Panels.Navigator;
+using Game.Client.Managers.UI.Panels.Panels;
 using Game.Client.SimpleMystiaUI.Selectables;
 using VContainer;
 using VContainer.Unity;
@@ -30,6 +29,10 @@ namespace Game.Client.DI
             builder.Register<DeckDataProvider>(Lifetime.Scoped);
             builder.Register<DeckDataEditor>(Lifetime.Scoped);
             builder.Register<CardPresentationProvider>(Lifetime.Scoped);
+            builder.Register<PlayerRepository>(Lifetime.Singleton);
+            builder.Register<PlayerDataProvider>(Lifetime.Scoped);
+            builder.Register<RandomPlayerInfoProvider>(Lifetime.Scoped);
+            builder.Register<PlayerDataEditor>(Lifetime.Scoped);
             
             builder.Register<EditorContext>(Lifetime.Scoped);
 
@@ -43,7 +46,7 @@ namespace Game.Client.DI
             
             // Components
             builder.RegisterComponentInHierarchy<CharacterGridView>();
-            builder.RegisterComponentInHierarchy<VariantListView>();
+            builder.RegisterComponentInHierarchy<CharacterVariantsView>();
             builder.RegisterComponentInHierarchy<CardGridView>();
 
             builder.RegisterComponentInHierarchy<CustomPreviewCard>();

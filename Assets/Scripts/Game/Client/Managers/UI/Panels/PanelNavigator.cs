@@ -1,10 +1,9 @@
-using Game.Client.Managers.UI.Panels.CardCustom;
-using Game.Client.Managers.UI.Panels.CharacterConfig;
+using Game.Client.Managers.UI.Panels.Panels;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer.Unity;
 
-namespace Game.Client.Managers.UI.Panels.Navigator
+namespace Game.Client.Managers.UI.Panels
 {
     public class PanelNavigator : IStartable
     {

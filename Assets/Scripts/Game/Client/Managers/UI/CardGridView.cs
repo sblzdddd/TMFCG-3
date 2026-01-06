@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Game.Client.Managers.UI.Panels.CardCustom
+namespace Game.Client.Managers.UI
 {
     [RequireComponent(typeof(GridLayoutGroup), typeof(ToggleGroup))]
     public class CardGridView: MonoBehaviour
