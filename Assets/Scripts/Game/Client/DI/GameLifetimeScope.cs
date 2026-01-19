@@ -18,9 +18,6 @@ namespace Game.Client.DI
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            // Entry Points
-            builder.RegisterEntryPoint<PanelNavigator>();
-            
             // Services
             builder.Register<CharacterRepository>(Lifetime.Singleton);
             builder.Register<CharacterProvider>(Lifetime.Scoped);
@@ -36,20 +33,15 @@ namespace Game.Client.DI
             
             builder.Register<EditorContext>(Lifetime.Scoped);
 
-            // Panels
-            builder.RegisterComponentInHierarchy<StartPanel>();
-            builder.RegisterComponentInHierarchy<CardCustomPanel>();
-            builder.RegisterComponentInHierarchy<SettingsPanel>();
-            builder.RegisterComponentInHierarchy<JoinPanel>();
-            
-            builder.RegisterComponentInHierarchy<CharacterConfigPanel>();
+            // Panel Manager
+            builder.RegisterComponentInHierarchy<PanelManager>().AsImplementedInterfaces().AsSelf();
             
             // Components
-            builder.RegisterComponentInHierarchy<CharacterGridView>();
-            builder.RegisterComponentInHierarchy<CharacterVariantsView>();
-            builder.RegisterComponentInHierarchy<CardGridView>();
-
-            builder.RegisterComponentInHierarchy<CustomPreviewCard>();
+            builder.RegisterComponentInHierarchy<CustomPreviewCard>(); // Might be part of panel now? StartPanel used it? No CardCustomPanel used it. If CardCustomPanel is prefab, is this part of it? 
+            // CardCustomPanel: [Inject] private readonly CustomPreviewCard previewCard; 
+            // If CustomPreviewCard is separate scene object, we keep this. If it's child of prefab, we remove.
+            // Assuming it's separate for now as user didn't mention it.
+            
             builder.RegisterComponentInHierarchy<CardCharacterManager>();
             builder.RegisterComponentInHierarchy<CardManager>();
 

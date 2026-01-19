@@ -15,9 +15,15 @@ namespace Game.Client.Managers.UI.Panels.Panels
 
         public void Start()
         {
-            FadePosition = 2;
             hostButton.onClick.AddListener(() => launcher.StartHost());
             joinButton.onClick.AddListener(() => launcher.StartClient("127.0.0.1"));
+            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel());
+        }
+
+        public override void OnOpen()
+        {
+            base.OnOpen();
+            MoCo.FadeIn(Cg);
         }
     }
 }

@@ -4,7 +4,6 @@ using Game.Client.Managers.UI.Panels.Base;
 using Game.Client.SimpleMystiaUI.Sliders;
 using R3;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using VContainer;
 
@@ -40,7 +39,6 @@ namespace Game.Client.Managers.UI.Panels.Panels
         
         public void Start()
         {
-            FadePosition = 1;
             // EditTransform => slider value
             characterEditor.EditTransform
                 .Subscribe(UpdateSliders)
@@ -86,16 +84,16 @@ namespace Game.Client.Managers.UI.Panels.Panels
             characterEditor.SaveConfig();
             deckDataEditor.UpdateCardCharacter(characterEditor.EditingCharacterId.Value, characterEditor.EditingVariantIndex.Value);
             deckDataEditor.SaveConfig();
-            Hide();
+            Manager.CloseCurrentPanel();
         }
         
         private void Revert()
         {
             characterEditor.SelectCharacter(oldCharacterId, oldCharacterVariantIndex);
-            Hide();
+            Manager.CloseCurrentPanel();
         }
 
-        public void Show(string characterId, int characterVariantIndex, int direction = -1)
+        public void Setup(string characterId, int characterVariantIndex)
         {
             oldCharacterId = characterId;
             oldCharacterVariantIndex = characterVariantIndex;
@@ -104,13 +102,20 @@ namespace Game.Client.Managers.UI.Panels.Panels
                 {
                     await characterGridView.Select(characterId, characterVariantIndex);
                 });
-            base.Show(direction);
+            // base.Show() removed, handled by PanelManager calling OnOpen
         }
 
-        public override void Hide(int direction = -1)
+
+        public override void OnOpen()
+        {
+            base.OnOpen();
+            MoCo.FadeIn(Cg);
+        }
+
+        public override UniTask OnClose()
         {
             editorContext.CurrentContext.Value = PreviewContext.CardEditor;
-            base.Hide(direction);
+            return base.OnClose();
         }
     }
 }

@@ -6,6 +6,7 @@ using R3;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
+using Cysharp.Threading.Tasks;
 
 namespace Game.Client.Managers.UI.Panels.Panels
 {
@@ -23,7 +24,7 @@ namespace Game.Client.Managers.UI.Panels.Panels
         
         [Inject] private readonly DeckDataEditor deckDataEditor;
         [Inject] private readonly DeckDataProvider deckDataProvider;
-        [Inject] private readonly CharacterConfigPanel characterConfigPanel;
+        // [Inject] private readonly CharacterConfigPanel characterConfigPanel; // Removed
         [Inject] private readonly CustomPreviewCard previewCard;
         [Inject] private EditorContext editorContext;
         
@@ -31,16 +32,19 @@ namespace Game.Client.Managers.UI.Panels.Panels
 
         public void Start()
         {
-            FadePosition = 0;
-            
             backButton.onClick.AddListener(deckDataEditor.SaveConfig);
+            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel()); // Added Close
             saveButton?.onClick.AddListener(deckDataEditor.SaveConfig);
             selectCharacterButton.onClick.AddListener(() =>
             {
                 editorContext.CurrentContext.Value = PreviewContext.CharacterEditor;
                 deckDataProvider.TryGetCard(deckDataEditor.EditingCardId.Value, out var cardData);
-                characterConfigPanel.Show(cardData.characterId, cardData.characterVariantIndex);
-                SetInteractability(false);
+                
+                var panel = Manager.OpenPanel(PanelType.CharacterConfig);
+                if (panel is CharacterConfigPanel config)
+                {
+                    config.Setup(cardData.characterId, cardData.characterVariantIndex);
+                }
             });
         }
 
@@ -49,16 +53,18 @@ namespace Game.Client.Managers.UI.Panels.Panels
             disposables.Dispose();
         }
 
-        public override void Show(int direction = -1)
+
+        public override void OnOpen()
         {
             previewCard.Show();
-            base.Show(direction);
+            base.OnOpen();
+            MoCo.FadeIn(Cg);
         }
-        
-        public override void Hide(int direction = -1)
+
+        public override UniTask OnClose()
         {
             previewCard.Hide();
-            base.Hide(direction);
+            return base.OnClose();
         }
     }
 }

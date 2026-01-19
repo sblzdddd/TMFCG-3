@@ -1,58 +1,56 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Game.Client.Managers.UI.Panels.Base
 {
     [RequireComponent(typeof(RectTransform), typeof(CanvasGroup))]
-    public class BasePanel: MonoBehaviour
+    public abstract class BasePanel : MonoBehaviour
     {
-        protected RectTransform Rt;
+        public PanelManager Manager { get; set; }
+        
         protected CanvasGroup Cg;
-        protected int FadePosition = 0;
+        protected RectTransform Rt;
 
         protected virtual void Awake()
         {
-            Rt = GetComponent<RectTransform>();
             Cg = GetComponent<CanvasGroup>();
-            SetInteractability(false);
+            Rt = GetComponent<RectTransform>();
         }
-        
-        public virtual void Show(int direction = -1)
+
+        public virtual void OnInitialize()
         {
+            // Called immediately after instantiation and injection
+        }
+
+        public virtual void OnOpen()
+        {
+            // Default behavior: just be visible
             SetInteractability(true);
-            if (direction != -1)
-            {
-                MoCo.FadeIn(direction, Rt);
-                return;
-            }
-            if (FadePosition != -1)
-            {
-                MoCo.FadeIn(FadePosition, Rt);
-                return;
-            }
-            MoCo.FadeIn(0, Rt);
         }
 
-        public virtual void Hide(int direction = -1)
+        public virtual UniTask OnClose()
         {
+            // Default behavior: destroy immediately
+            return UniTask.CompletedTask;
+        }
+
+        public virtual void OnFocus()
+        {
+            // Brought to front / Resumed
+            SetInteractability(true);
+        }
+
+        public virtual void OnLostFocus()
+        {
+            // Brought to back / Paused
             SetInteractability(false);
-            if (direction != -1)
-            {
-                MoCo.FadeOut(direction, Rt);
-                return;
-            }
-            if (FadePosition != -1)
-            {
-                MoCo.FadeOut(FadePosition, Rt);
-                return;
-            }
-            MoCo.FadeOut(0, Rt);
         }
 
-        public void SetInteractability(bool interactable)
+        protected void SetInteractability(bool interactable)
         {
+            if (Cg == null) Cg = GetComponent<CanvasGroup>();
             Cg.interactable = interactable;
             Cg.blocksRaycasts = interactable;
-            Cg.alpha = interactable ? 1f : 0.75f;
         }
     }
 }

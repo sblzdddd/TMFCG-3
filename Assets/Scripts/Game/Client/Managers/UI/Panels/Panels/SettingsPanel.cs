@@ -10,7 +10,13 @@ namespace Game.Client.Managers.UI.Panels.Panels
 
         public void Start()
         {
-            FadePosition = 1;
+            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel());
+        }
+
+        public override void OnOpen()
+        {
+            base.OnOpen();
+            MoCo.FadeIn(Cg);
         }
     }
 }

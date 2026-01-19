@@ -2652,7 +2652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7f5d831cec45b6b34e2297c8faaebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.UI.StartUiManager
-  title: {fileID: 1355088975}
   startButton: {fileID: 332515266}
   customButton: {fileID: 1977288586}
   settingsButton: {fileID: 785606946}
@@ -3078,6 +3077,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1956332808816703002, guid: ca904083019a75a46a839650cbbb2260, type: 3}
   m_PrefabInstance: {fileID: 353195796}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &368699654
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SimpleMystiaUI/UIOutlinePixel
+  m_Shader: {fileID: 4800000, guid: 874cdc063484a0744a6c17506f456c2b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _OutlineWidth: 0
+    - _ShowOriginal: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVOffsetX: 0
+    - _UVOffsetY: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &373390290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,7 +4409,7 @@ MonoBehaviour:
   characterButtonPrefab: {fileID: 6477864979968333639, guid: b1263f030c327d743a7c01a965a98e64, type: 3}
   refreshGridButton: {fileID: 312854969}
   scrollRect: {fileID: 501986711}
-  characterVariantsView: {fileID: 0}
+  characterVariantsView: {fileID: 1123193295}
   onCharacterChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4611,7 +4654,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 405890823}
   m_HandleRect: {fileID: 405890822}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5896,7 +5939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 800, y: 0}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &971566126
@@ -6319,7 +6362,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1868411426}
   m_HandleRect: {fileID: 1868411425}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6630,7 +6673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1133065840}
   m_Layer: 5
-  m_Name: GameObject (2)
+  m_Name: AvatarPicker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8167,7 +8210,7 @@ GameObject:
   - component: {fileID: 1361074520}
   - component: {fileID: 1361074519}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: RandomizeUsernameBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9596,7 +9639,7 @@ MonoBehaviour:
   playerInfo:
     name: Player
     avatarId: th-62
-    avatarVariant: "\u7C73\u65AF\u8482\u5A05 \u666E\u901A\uFF08\u5FAE\u7B11\uFF09"
+    avatarVariantIndex: 0
 --- !u!4 &1632487082
 Transform:
   m_ObjectHideFlags: 0
@@ -10239,50 +10282,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ToggleGroup
   m_AllowSwitchOff: 0
---- !u!21 &1861940804
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SimpleMystiaUI/UIOutlinePixel
-  m_Shader: {fileID: 4800000, guid: 874cdc063484a0744a6c17506f456c2b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _OutlineWidth: 0
-    - _ShowOriginal: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UVOffsetX: 0
-    - _UVOffsetY: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1868411424
 GameObject:
   m_ObjectHideFlags: 0

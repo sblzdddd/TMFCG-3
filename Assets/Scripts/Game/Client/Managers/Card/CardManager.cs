@@ -5,7 +5,6 @@ using Game.Client.Data.Providers;
 using Game.Client.Dto;
 using Game.Client.Managers.Card.Components;
 using Game.Client.Managers.Card.Extensions;
-using Game.Shared.TmiCards.Card;
 using UnityEngine;
 using VContainer;
 

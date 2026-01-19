@@ -6,39 +6,13 @@ namespace Game.Client.Managers.UI.Panels.Base
 {
     public static class MoCo
     {
-        private static readonly Vector2 WorldCanvasSize =  new(800f, 450f);
-        
-        public static MotionHandle FadeIn(int direction, RectTransform rt)
+        public static MotionHandle FadeIn(CanvasGroup cg, float duration = 0.35f, Ease ease = Ease.OutCubic)
         {
-            switch (direction)
-            {
-                case 0:
-                    return LMotion.Create(-WorldCanvasSize.x, 0, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-                case 1:
-                    return LMotion.Create(WorldCanvasSize.y, 0, 0.35f).WithEase(Ease.OutCubic).BindToRectY(rt);
-                case 2:
-                    return LMotion.Create(WorldCanvasSize.x, 0, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-                case 3:
-                    return LMotion.Create(-WorldCanvasSize.y, 0, 0.35f).WithEase(Ease.OutCubic).BindToRectY(rt);
-                default:
-                    return LMotion.Create(-WorldCanvasSize.x, 0, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-            }
+            return LMotion.Create(0f, 1f, duration).WithEase(ease).BindToCanvasGroupAlpha(cg);
         }
-        public static MotionHandle FadeOut(int direction, RectTransform rt)
+        public static MotionHandle FadeOut(CanvasGroup cg, float duration = 0.35f, Ease ease = Ease.OutCubic)
         {
-            switch (direction)
-            {
-                case 0:
-                    return LMotion.Create(0, -WorldCanvasSize.x, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-                case 1:
-                    return LMotion.Create(0, WorldCanvasSize.y, 0.35f).WithEase(Ease.OutCubic).BindToRectY(rt);
-                case 2:
-                    return LMotion.Create(0, WorldCanvasSize.x, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-                case 3:
-                    return LMotion.Create(0, -WorldCanvasSize.y, 0.35f).WithEase(Ease.OutCubic).BindToRectY(rt);
-                default:
-                    return LMotion.Create(0, -WorldCanvasSize.x, 0.35f).WithEase(Ease.OutCubic).BindToRectX(rt);
-            }
+            return LMotion.Create(1f, 0f, duration).WithEase(ease).BindToCanvasGroupAlpha(cg);
         }
 
     }
