@@ -6,9 +6,13 @@ namespace Game.Client.Managers.UI.Panels.Panels
 {
     public class StartPanel: BasePanel
     {
+        [ChildObjectOnly, NotNull]
         public Button startButton;
+        [ChildObjectOnly, NotNull]
         public Button customButton;
+        [ChildObjectOnly, NotNull]
         public Button settingsButton;
+        [ChildObjectOnly, NotNull]
         public Button exitButton;
         
         private void Start()
@@ -24,5 +28,19 @@ namespace Game.Client.Managers.UI.Panels.Panels
             base.OnOpen();
             MoCo.FadeIn(Cg);
         }
+
+        public override void OnLostFocus()
+        {
+            MoCo.FadeOut(Cg);
+            base.OnLostFocus();
+        }
+
+        public override void OnFocus()
+        {
+            MoCo.FadeIn(Cg);
+            base.OnFocus();
+        }
+
+        
     }
 }

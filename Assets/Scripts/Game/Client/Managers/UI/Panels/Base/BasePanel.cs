@@ -1,10 +1,11 @@
 using Cysharp.Threading.Tasks;
+using Game.Client.Managers.UI.Panels.Interfaces;
 using UnityEngine;
 
 namespace Game.Client.Managers.UI.Panels.Base
 {
     [RequireComponent(typeof(RectTransform), typeof(CanvasGroup))]
-    public abstract class BasePanel : MonoBehaviour
+    public abstract class BasePanel : MonoBehaviour, IPanel
     {
         public PanelManager Manager { get; set; }
         
@@ -17,32 +18,33 @@ namespace Game.Client.Managers.UI.Panels.Base
             Rt = GetComponent<RectTransform>();
         }
 
+        // Called immediately after instantiation and injection
         public virtual void OnInitialize()
         {
-            // Called immediately after instantiation and injection
         }
 
+        // Default behavior: just be visible
         public virtual void OnOpen()
         {
-            // Default behavior: just be visible
             SetInteractability(true);
         }
 
+        // Default behavior: destroy immediately
         public virtual UniTask OnClose()
         {
-            // Default behavior: destroy immediately
+            SetInteractability(false);
             return UniTask.CompletedTask;
         }
 
+        // Brought to front / Resumed
         public virtual void OnFocus()
         {
-            // Brought to front / Resumed
             SetInteractability(true);
         }
 
+        // Brought to back / Paused
         public virtual void OnLostFocus()
         {
-            // Brought to back / Paused
             SetInteractability(false);
         }
 

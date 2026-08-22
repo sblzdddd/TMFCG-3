@@ -2,7 +2,6 @@ using Game.Client.Data.Editors;
 using Game.Client.Data.Providers;
 using Game.Client.Managers.Card;
 using Game.Client.Managers.UI.Panels.Base;
-using R3;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
@@ -28,12 +27,10 @@ namespace Game.Client.Managers.UI.Panels.Panels
         [Inject] private readonly CustomPreviewCard previewCard;
         [Inject] private EditorContext editorContext;
         
-        private readonly CompositeDisposable disposables = new();
-
         public void Start()
         {
             backButton.onClick.AddListener(deckDataEditor.SaveConfig);
-            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel()); // Added Close
+            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel().Forget()); // Added Close
             saveButton?.onClick.AddListener(deckDataEditor.SaveConfig);
             selectCharacterButton.onClick.AddListener(() =>
             {
@@ -47,12 +44,6 @@ namespace Game.Client.Managers.UI.Panels.Panels
                 }
             });
         }
-
-        private void OnDestroy()
-        {
-            disposables.Dispose();
-        }
-
 
         public override void OnOpen()
         {

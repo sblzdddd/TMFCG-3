@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using Game.Client.Managers.UI.Panels.Base;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ namespace Game.Client.Managers.UI.Panels.Panels
         {
             hostButton.onClick.AddListener(() => launcher.StartHost());
             joinButton.onClick.AddListener(() => launcher.StartClient("127.0.0.1"));
-            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel());
+            backButton.onClick.AddListener(() => Manager.CloseCurrentPanel().Forget());
         }
 
         public override void OnOpen()

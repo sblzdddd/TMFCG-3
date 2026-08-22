@@ -13,25 +13,26 @@ namespace Game.Client.Managers.UI.Panels
         [Serializable]
         public struct PanelEntry
         {
-            public PanelType Type;
-            public BasePanel Prefab;
+            public PanelType type;
+            [PrefabObjectOnly, NotNull]
+            public BasePanel prefab;
         }
 
-        [SerializeField] private Transform canvasRoot;
-        [SerializeField] private List<PanelEntry> panelPrefabs;
+        [SerializeField, NotNull] private Canvas canvasRoot;
+        [SerializeField, ReorderableList] private List<PanelEntry> panelPrefabs;
 
-        private readonly Dictionary<PanelType, BasePanel> _prefabDict = new();
-        private readonly Stack<BasePanel> _panelStack = new();
+        private readonly Dictionary<PanelType, BasePanel> prefabDict = new();
+        private readonly Stack<BasePanel> panelStack = new();
         
-        [Inject] private IObjectResolver _resolver;
+        [Inject] private IObjectResolver resolver;
 
         private void Awake()
         {
             foreach (var entry in panelPrefabs)
             {
-                if (entry.Prefab != null)
+                if (entry.prefab != null)
                 {
-                    _prefabDict[entry.Type] = entry.Prefab;
+                    prefabDict[entry.type] = entry.prefab;
                 }
             }
         }
@@ -43,25 +44,25 @@ namespace Game.Client.Managers.UI.Panels
 
         public BasePanel OpenPanel(PanelType type)
         {
-            if (!_prefabDict.TryGetValue(type, out var prefab))
+            if (!prefabDict.TryGetValue(type, out var prefab))
             {
                 Debug.LogError($"Panel type {type} not found in manager!");
                 return null;
             }
 
             // Handle current top panel
-            if (_panelStack.Count > 0)
+            if (panelStack.Count > 0)
             {
-                var currentTop = _panelStack.Peek();
+                var currentTop = panelStack.Peek();
                 currentTop.OnLostFocus();
             }
 
             // Instantiate new panel
-            var instance = _resolver.Instantiate(prefab, canvasRoot);
+            var instance = resolver.Instantiate(prefab, canvasRoot.transform);
             instance.Manager = this;
             
             // Push and initialize
-            _panelStack.Push(instance);
+            panelStack.Push(instance);
             
             // Bring to front handled by instantiation order or explicit sibling index
             instance.transform.SetAsLastSibling();
@@ -72,35 +73,45 @@ namespace Game.Client.Managers.UI.Panels
             return instance;
         }
 
-        public async void CloseCurrentPanel()
+        public async UniTask<bool> CloseCurrentPanel()
         {
-            if (_panelStack.Count == 0) return;
-
-            var activePanel = _panelStack.Pop();
-            
-            // Wait for custom closing logic (animations, cleanup, etc.)
-            await activePanel.OnClose();
-            
-            // Finally destroy the game object
-            if (activePanel != null && activePanel.gameObject != null)
+            if (panelStack.Count == 0)
             {
-                Destroy(activePanel.gameObject);
+                Debug.LogWarning($"No panels found in stack, cannot close!");
+                return false;
             }
 
-            // Resume previous panel
-            if (_panelStack.Count > 0)
+            var activePanel = panelStack.Pop();
+            try
             {
-                var nextTop = _panelStack.Peek();
+                // Wait for custom closing logic (animations, cleanup, etc.)
+                await activePanel.OnClose();
+            
+                // Finally destroy the game object
+                if (activePanel != null && activePanel.gameObject != null)
+                {
+                    Destroy(activePanel.gameObject);
+                }
+
+                // Resume previous panel
+                if (panelStack.Count <= 0) return true;
+                var nextTop = panelStack.Peek();
                 nextTop.OnFocus();
             }
+            catch (Exception e)
+            {
+               Debug.LogError($"Failed to close panel {activePanel.gameObject.name}: {e.Message}"); 
+               return false;
+            }
+            return true;
         }
 
         // Helper for panels to close themselves
         public void ClosePanel(BasePanel panel)
         {
-            if (_panelStack.Count > 0 && _panelStack.Peek() == panel)
+            if (panelStack.Count > 0 && panelStack.Peek() == panel)
             {
-                CloseCurrentPanel();
+                CloseCurrentPanel().Forget();
             }
             else
             {

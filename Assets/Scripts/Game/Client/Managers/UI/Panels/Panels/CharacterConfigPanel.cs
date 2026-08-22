@@ -84,13 +84,13 @@ namespace Game.Client.Managers.UI.Panels.Panels
             characterEditor.SaveConfig();
             deckDataEditor.UpdateCardCharacter(characterEditor.EditingCharacterId.Value, characterEditor.EditingVariantIndex.Value);
             deckDataEditor.SaveConfig();
-            Manager.CloseCurrentPanel();
+            Manager.CloseCurrentPanel().Forget();
         }
         
         private void Revert()
         {
             characterEditor.SelectCharacter(oldCharacterId, oldCharacterVariantIndex);
-            Manager.CloseCurrentPanel();
+            Manager.CloseCurrentPanel().Forget();
         }
 
         public void Setup(string characterId, int characterVariantIndex)

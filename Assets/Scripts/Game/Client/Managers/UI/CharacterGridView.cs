@@ -27,7 +27,7 @@ namespace Game.Client.Managers.UI
         private ToggleGroup toggleGroup;
         private CanvasGroup canvasGroup;
 
-        private void Start()
+        private void Awake()
         {
             toggleGroup = GetComponent<ToggleGroup>();
             canvasGroup = GetComponent<CanvasGroup>();
